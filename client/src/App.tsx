@@ -5,12 +5,41 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import About from "./pages/About";
+import HowToPlay from "./pages/HowToPlay";
+import FAQ from "./pages/FAQ";
+import Contact from "./pages/Contact";
+import Terms from "./pages/Terms";
+import Privacy from "./pages/Privacy";
+import FairPlay from "./pages/FairPlay";
+import ResponsibleGaming from "./pages/ResponsibleGaming";
+import Blog from "./pages/Blog";
+import Dashboard from "./pages/Dashboard";
+import Profile from "./pages/Profile";
+import Matches from "./pages/Matches";
+import Leaderboard from "./pages/Leaderboard";
 
 function Router() {
-  // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
       <Route path={"/"} component={Home} />
+      <Route path={"/login"} component={Login} />
+      <Route path={"/register"} component={Register} />
+      <Route path={"/dashboard"} component={Dashboard} />
+      <Route path={"/profile"} component={Profile} />
+      <Route path={"/matches"} component={Matches} />
+      <Route path={"/leaderboard"} component={Leaderboard} />
+      <Route path={"/about"} component={About} />
+      <Route path={"/how-to-play"} component={HowToPlay} />
+      <Route path={"/faq"} component={FAQ} />
+      <Route path={"/contact"} component={Contact} />
+      <Route path={"/terms"} component={Terms} />
+      <Route path={"/privacy"} component={Privacy} />
+      <Route path={"/fair-play"} component={FairPlay} />
+      <Route path={"/responsible-gaming"} component={ResponsibleGaming} />
+      <Route path={"/blog"} component={Blog} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
