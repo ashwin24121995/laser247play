@@ -176,3 +176,10 @@
 - [x] Update logo in header
 - [x] Update logo in footer
 - [x] Test logo display across all pages
+
+
+## Replace Logo with User-Provided Version
+- [x] Upload user-provided logo to CDN
+- [x] Update logo in header
+- [x] Update logo in footer
+- [x] Test logo display

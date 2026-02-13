@@ -55,7 +55,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <Link href="/">
               <a className="flex items-center gap-3">
                 <img
-                  src="https://private-us-east-1.manuscdn.com/sessionFile/Y7Sk0vn1RqFKRxektkhfh0/sandbox/yWjW7tF7k7XutXJCw7Bh86_1770952511609_na1fn_bG9nby10ZWFsLW5ldw.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvWTdTazB2bjFScUZLUnhla3RraGZoMC9zYW5kYm94L3lXalc3dEY3azdYdXRYSkN3N0JoODZfMTc3MDk1MjUxMTYwOV9uYTFmbl9iRzluYnkxMFpXRnNMVzVsZHcucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=QLvbKE27XRhyYuhDC9pSj7rHka53VQ41EkfgcymXEiOVWmsJ3WQWun6FMYOiJ9byBTSP-1UNjD8g~FZSsWic2sxvKEECKd~5xKbvTw6txsez2IfFIGpZbufAwwvO8Pl~uXnnyy5ogoNpIAKRSOIbN56x3xBfqzg38yVIkD2nGlcKyo79yf47jJ10Bd4EDFwgS49F5f84yLOhL1NwA6Owvbi05iYJtdQy2dgnJi9RXuPl1HPXHk-unDT-erC-Rj02K9i9Wo2DvrZ7ifztu8tNc~tNK6OwtR8VW0cu8RE5Mf2rtM8WFkqeuFPj8yADM~8oyw96QvsEReebneOjyaWSWA__"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/csPzjVtgRRtIPXyF.png"
                   alt="Laser 247 Play"
                   className="h-10 w-auto"
                 />
