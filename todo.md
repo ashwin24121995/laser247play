@@ -189,3 +189,10 @@
 - [x] Update logo size in footer to 110px
 - [x] Ensure logo displays at 110px across all pages
 - [x] Test logo display on all pages
+
+
+## Update Homepage Sections
+- [x] Add 6 detailed items to Why Choose section (100% Free Forever, Learn & Improve, Safe & Secure, Skill-Based Gaming, Leaderboard Rankings, Community Driven)
+- [x] Redesign How It Works section with numbered card layout (similar to reference image)
+- [x] Add detailed descriptions and bullet points to each step
+- [x] Test updated sections

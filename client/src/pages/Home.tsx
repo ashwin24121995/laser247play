@@ -156,95 +156,188 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Feature 1 */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Feature 1: 100% Free Forever */}
             <Card className="card-elevated hover:shadow-teal transition-all duration-300">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-teal-100 rounded-xl flex items-center justify-center mb-6">
-                  <Users className="w-8 h-8 text-teal-600" />
+                  <Zap className="w-8 h-8 text-teal-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-4">Build Dream Teams</h3>
+                <h3 className="text-2xl font-bold text-slate-900 mb-4">100% Free Forever</h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  Select your favorite cricket players and create winning combinations. Analyze player statistics, form, and match conditions to build the perfect team strategy.
+                  Play without spending a single rupee. Our platform is completely free with no hidden charges, subscriptions, or in-app purchases. Backed by investors who believe in cricket education for all.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                    <span>Choose from real cricket players</span>
+                    <span>No registration fees or deposits</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                    <span>Analyze player statistics and performance</span>
+                    <span>Zero hidden charges or subscriptions</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                    <span>Create multiple team combinations</span>
+                    <span>Investor-backed educational model</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
-                    <span>Learn team composition strategies</span>
+                    <span>Unlimited team creation and participation</span>
                   </li>
                 </ul>
               </CardContent>
             </Card>
 
-            {/* Feature 2 */}
+            {/* Feature 2: Learn & Improve */}
             <Card className="card-elevated hover:shadow-navy transition-all duration-300">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-slate-100 rounded-xl flex items-center justify-center mb-6">
-                  <Trophy className="w-8 h-8 text-slate-800" />
+                  <TrendingUp className="w-8 h-8 text-slate-800" />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-4">Compete on Leaderboards</h3>
+                <h3 className="text-2xl font-bold text-slate-900 mb-4">Learn & Improve</h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  Test your skills against cricket enthusiasts from across India. Climb the rankings, earn recognition, and showcase your cricket knowledge on our competitive leaderboards.
+                  Master cricket strategy through practical experience. Understand player form, pitch conditions, team composition, and match dynamics while improving your analytical skills with every game.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-slate-800 flex-shrink-0 mt-0.5" />
-                    <span>Real-time leaderboard rankings</span>
+                    <span>Educational cricket strategy guides</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-slate-800 flex-shrink-0 mt-0.5" />
-                    <span>Compete with thousands of players</span>
+                    <span>Player statistics and performance analysis</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-slate-800 flex-shrink-0 mt-0.5" />
-                    <span>Track your progress and improvement</span>
+                    <span>Match condition insights and tips</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-slate-800 flex-shrink-0 mt-0.5" />
-                    <span>Earn badges and achievements</span>
+                    <span>Track your decision-making improvement</span>
                   </li>
                 </ul>
               </CardContent>
             </Card>
 
-            {/* Feature 3 */}
+            {/* Feature 3: Safe & Secure */}
             <Card className="card-elevated hover:shadow-coral transition-all duration-300">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center mb-6">
-                  <BookOpen className="w-8 h-8 text-orange-600" />
+                  <Lock className="w-8 h-8 text-orange-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-4">Learn Cricket Strategy</h3>
+                <h3 className="text-2xl font-bold text-slate-900 mb-4">Safe & Secure</h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  Enhance your understanding of cricket through hands-on experience. Learn about player roles, match dynamics, pitch conditions, and strategic decision-making.
+                  Your data and experience are protected with industry-standard security measures. Age-verified platform ensuring a safe environment for responsible cricket entertainment.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
-                    <span>Understand player roles and positions</span>
+                    <span>Strict 18+ age verification system</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
-                    <span>Learn match strategy and tactics</span>
+                    <span>Secure data encryption and privacy</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
-                    <span>Analyze pitch and weather conditions</span>
+                    <span>Fair play policies and monitoring</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
-                    <span>Develop cricket analytical skills</span>
+                    <span>Responsible gaming guidelines</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Feature 4: Skill-Based Gaming */}
+            <Card className="card-elevated hover:shadow-teal transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="w-16 h-16 bg-teal-100 rounded-xl flex items-center justify-center mb-6">
+                  <Target className="w-8 h-8 text-teal-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-slate-900 mb-4">Skill-Based Gaming</h3>
+                <p className="text-gray-600 mb-4 leading-relaxed">
+                  Success depends purely on your cricket knowledge and strategic thinking. No luck involved - just your understanding of the game, player analysis, and tactical decision-making abilities.
+                </p>
+                <ul className="space-y-2 text-sm text-gray-600">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                    <span>Cricket knowledge-based gameplay</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                    <span>Strategic team building challenges</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                    <span>Analytical decision-making rewards</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                    <span>No random chance or luck factors</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Feature 5: Leaderboard Rankings */}
+            <Card className="card-elevated hover:shadow-navy transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="w-16 h-16 bg-slate-100 rounded-xl flex items-center justify-center mb-6">
+                  <Award className="w-8 h-8 text-slate-800" />
+                </div>
+                <h3 className="text-2xl font-bold text-slate-900 mb-4">Leaderboard Rankings</h3>
+                <p className="text-gray-600 mb-4 leading-relaxed">
+                  Compete with cricket fans across India and showcase your expertise. Climb the rankings, earn recognition, and see how your cricket knowledge stacks up against thousands of players nationwide.
+                </p>
+                <ul className="space-y-2 text-sm text-gray-600">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-slate-800 flex-shrink-0 mt-0.5" />
+                    <span>Real-time national leaderboard updates</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-slate-800 flex-shrink-0 mt-0.5" />
+                    <span>Match-wise and overall rankings</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-slate-800 flex-shrink-0 mt-0.5" />
+                    <span>Performance tracking and statistics</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-slate-800 flex-shrink-0 mt-0.5" />
+                    <span>Achievement badges and milestones</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Feature 6: Community Driven */}
+            <Card className="card-elevated hover:shadow-coral transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center mb-6">
+                  <Heart className="w-8 h-8 text-orange-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-slate-900 mb-4">Community Driven</h3>
+                <p className="text-gray-600 mb-4 leading-relaxed">
+                  Join a vibrant community of cricket enthusiasts who share your passion. Connect with fellow fans, discuss strategies, share insights, and grow together in a supportive environment.
+                </p>
+                <ul className="space-y-2 text-sm text-gray-600">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
+                    <span>Thousands of active cricket fans</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
+                    <span>Strategy discussions and tips sharing</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
+                    <span>Friendly competition and sportsmanship</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
+                    <span>Regular platform updates based on feedback</span>
                   </li>
                 </ul>
               </CardContent>
@@ -263,57 +356,133 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Step 1 */}
-            <div className="relative">
-              <div className="bg-gradient-to-br from-teal-50 to-white p-8 rounded-2xl border-2 border-teal-200 h-full">
-                <div className="w-12 h-12 bg-teal-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-6">
-                  1
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Register Free</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Create your free account in seconds. No payment information required. Just your basic details and you're ready to start.
-                </p>
+            <div className="relative bg-white p-8 rounded-2xl border border-gray-200 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="absolute -top-4 -left-4 w-20 h-20 bg-gradient-to-br from-teal-100 to-teal-50 rounded-2xl flex items-center justify-center">
+                <span className="text-5xl font-bold text-teal-600/30">01</span>
               </div>
+              <div className="w-14 h-14 bg-teal-100 rounded-full flex items-center justify-center mb-6 mt-4">
+                <Users className="w-7 h-7 text-teal-600" />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Create Your Account</h3>
+              <p className="text-gray-600 mb-4 leading-relaxed">
+                Sign up for free in less than 2 minutes. Just provide your email, create a password, and verify your age (18+). No payment information required.
+              </p>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" />
+                  <span>Quick registration</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" />
+                  <span>Email verification</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" />
+                  <span>Age verification (18+)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" />
+                  <span>Instant access</span>
+                </li>
+              </ul>
             </div>
 
             {/* Step 2 */}
-            <div className="relative">
-              <div className="bg-gradient-to-br from-slate-50 to-white p-8 rounded-2xl border-2 border-slate-200 h-full">
-                <div className="w-12 h-12 bg-slate-800 text-white rounded-full flex items-center justify-center text-xl font-bold mb-6">
-                  2
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Choose Match</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Browse upcoming cricket matches from various tournaments. Select the match you want to participate in and start building your team.
-                </p>
+            <div className="relative bg-white p-8 rounded-2xl border border-gray-200 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="absolute -top-4 -left-4 w-20 h-20 bg-gradient-to-br from-slate-100 to-slate-50 rounded-2xl flex items-center justify-center">
+                <span className="text-5xl font-bold text-slate-800/30">02</span>
               </div>
+              <div className="w-14 h-14 bg-slate-100 rounded-full flex items-center justify-center mb-6 mt-4">
+                <Trophy className="w-7 h-7 text-slate-800" />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Choose a Match</h3>
+              <p className="text-gray-600 mb-4 leading-relaxed">
+                Browse upcoming cricket matches from various tournaments. Select the match you want to play - IPL, international matches, domestic leagues, and more.
+              </p>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-slate-800 flex-shrink-0 mt-0.5" />
+                  <span>Multiple tournaments</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-slate-800 flex-shrink-0 mt-0.5" />
+                  <span>Live match updates</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-slate-800 flex-shrink-0 mt-0.5" />
+                  <span>Match schedules</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-slate-800 flex-shrink-0 mt-0.5" />
+                  <span>Team information</span>
+                </li>
+              </ul>
             </div>
 
             {/* Step 3 */}
-            <div className="relative">
-              <div className="bg-gradient-to-br from-orange-50 to-white p-8 rounded-2xl border-2 border-orange-200 h-full">
-                <div className="w-12 h-12 bg-orange-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-6">
-                  3
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Build Team</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Select 11 players from both teams. Analyze statistics, recent form, and match conditions to create your winning combination.
-                </p>
+            <div className="relative bg-white p-8 rounded-2xl border border-gray-200 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="absolute -top-4 -left-4 w-20 h-20 bg-gradient-to-br from-orange-100 to-orange-50 rounded-2xl flex items-center justify-center">
+                <span className="text-5xl font-bold text-orange-600/30">03</span>
               </div>
+              <div className="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center mb-6 mt-4">
+                <Target className="w-7 h-7 text-orange-600" />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Build Your Team</h3>
+              <p className="text-gray-600 mb-4 leading-relaxed">
+                Select 11 players within the budget. Choose wisely from batsmen, bowlers, all-rounders, and wicket-keepers. Pick your captain and vice-captain for bonus points.
+              </p>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-orange-600 flex-shrink-0 mt-0.5" />
+                  <span>11 player selection</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-orange-600 flex-shrink-0 mt-0.5" />
+                  <span>Budget management</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-orange-600 flex-shrink-0 mt-0.5" />
+                  <span>Role-based picking</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-orange-600 flex-shrink-0 mt-0.5" />
+                  <span>Captain selection</span>
+                </li>
+              </ul>
             </div>
 
             {/* Step 4 */}
-            <div className="relative">
-              <div className="bg-gradient-to-br from-teal-50 to-white p-8 rounded-2xl border-2 border-teal-200 h-full">
-                <div className="w-12 h-12 bg-teal-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-6">
-                  4
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Track & Learn</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Follow live match updates, see how your team performs, and climb the leaderboard. Learn from each match and improve your skills.
-                </p>
+            <div className="relative bg-white p-8 rounded-2xl border border-gray-200 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="absolute -top-4 -left-4 w-20 h-20 bg-gradient-to-br from-teal-100 to-teal-50 rounded-2xl flex items-center justify-center">
+                <span className="text-5xl font-bold text-teal-600/30">04</span>
               </div>
+              <div className="w-14 h-14 bg-teal-100 rounded-full flex items-center justify-center mb-6 mt-4">
+                <BarChart3 className="w-7 h-7 text-teal-600" />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Track & Compete</h3>
+              <p className="text-gray-600 mb-4 leading-relaxed">
+                Watch your team score points based on real match performance. Track live scores, climb the leaderboard, and see how your strategy plays out.
+              </p>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" />
+                  <span>Live point tracking</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" />
+                  <span>Real-time updates</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" />
+                  <span>Leaderboard position</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" />
+                  <span>Performance analysis</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
