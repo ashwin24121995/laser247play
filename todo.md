@@ -324,3 +324,21 @@
 - [ ] Push fixes to GitHub
 - [ ] Monitor Vercel deployment
 - [ ] Verify successful build and deployment
+
+
+## Connect Custom Domain squadmastersports.com to Vercel
+- [x] Navigate to Vercel project settings
+- [x] Add squadmastersports.com domain
+- [x] Configure DNS A record pointing to Vercel
+- [x] Configure DNS CNAME record for www subdomain
+- [x] Verify domain ownership (SSL certificates generating)
+- [ ] Wait for SSL certificate generation to complete
+- [ ] Test domain is live
+
+
+## Fix Vercel Serverless Deployment
+- [ ] Create api/index.ts serverless function wrapper
+- [ ] Update vercel.json with correct rewrites
+- [ ] Fix module resolution for serverless environment
+- [ ] Test deployment on Vercel
+- [ ] Verify website is live on squadmastersports.com
