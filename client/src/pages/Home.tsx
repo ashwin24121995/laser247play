@@ -160,8 +160,12 @@ export default function Home() {
             {/* IPL */}
             <Card className="card-elevated hover:shadow-teal transition-all">
               <CardContent className="p-6 text-center">
-                <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Trophy className="w-8 h-8 text-teal-600" />
+                <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/dassKpnSfzHkpZzo.png" 
+                    alt="IPL Logo" 
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-2">Indian Premier League</h3>
                 <p className="text-gray-600 text-sm mb-3">IPL - India's biggest T20 tournament</p>
@@ -176,8 +180,12 @@ export default function Home() {
             {/* International Cricket */}
             <Card className="card-elevated hover:shadow-navy transition-all">
               <CardContent className="p-6 text-center">
-                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Globe className="w-8 h-8 text-slate-800" />
+                <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/dpUMHGUMjxaowVUc.png" 
+                    alt="ICC Logo" 
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-2">International Matches</h3>
                 <p className="text-gray-600 text-sm mb-3">Test, ODI & T20I matches</p>
@@ -192,8 +200,12 @@ export default function Home() {
             {/* Domestic Leagues */}
             <Card className="card-elevated hover:shadow-coral transition-all">
               <CardContent className="p-6 text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Star className="w-8 h-8 text-orange-600" />
+                <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/oWtvyNkdZPYeFKfs.png" 
+                    alt="BCCI Logo" 
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-2">Domestic Cricket</h3>
                 <p className="text-gray-600 text-sm mb-3">Ranji Trophy, Syed Mushtaq Ali & more</p>
@@ -208,8 +220,12 @@ export default function Home() {
             {/* T20 Leagues */}
             <Card className="card-elevated hover:shadow-teal transition-all">
               <CardContent className="p-6 text-center">
-                <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Zap className="w-8 h-8 text-teal-600" />
+                <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/muYJyWkuOIiyxAfF.png" 
+                    alt="T20 Leagues Logo" 
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-2">Global T20 Leagues</h3>
                 <p className="text-gray-600 text-sm mb-3">BBL, CPL, PSL & other leagues</p>

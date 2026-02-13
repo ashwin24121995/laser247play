@@ -203,3 +203,13 @@
 - [x] Include tournament types (IPL, International, Domestic, T20 leagues, etc.)
 - [x] Add detailed match coverage information
 - [x] Test new section display
+
+
+## Replace Icons with Actual Cricket Logos
+- [x] Generate IPL logo
+- [x] Generate ICC (International Cricket) logo
+- [x] Generate BCCI (Domestic Cricket) logo
+- [x] Generate T20 Leagues logo
+- [x] Upload logos to CDN
+- [x] Update Cricket Coverage section with actual logos
+- [x] Test logo display
