@@ -296,3 +296,13 @@
 - [x] Update all legal pages (Privacy, Terms, Disclaimer) with real company info
 - [x] Test all pages for updated information
 - [x] Push updated code to GitHub
+
+
+## Create New Squad Master Sports Logo
+- [x] Generate Squad Master Sports logo with cricket theme (teal/navy/coral colors)
+- [x] Upload logo to CDN
+- [x] Update logo in Layout header
+- [x] Update logo in footer
+- [ ] Update favicon
+- [ ] Test logo display across all pages
+- [ ] Push updated logo to GitHub

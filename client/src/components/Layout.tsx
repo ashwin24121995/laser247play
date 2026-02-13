@@ -55,9 +55,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <Link href="/">
               <a className="flex items-center gap-3">
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/csPzjVtgRRtIPXyF.png"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/qOdECXYvbEqDEoMI.png"
                   alt="Squad Master Sports"
-                  className="h-10 w-auto" style={{height: '110px'}}
+                  className="h-12 w-auto"
                 />
               </a>
             </Link>
@@ -218,10 +218,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
             {/* Company Info - Takes 2 columns */}
             <div className="lg:col-span-2">
               <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/csPzjVtgRRtIPXyF.png"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/qOdECXYvbEqDEoMI.png"
                 alt="Squad Master Sports"
-                className="h-10 w-auto mb-4 brightness-0 invert"
-                style={{height: '110px'}}
+                className="h-12 w-auto mb-4 brightness-0 invert"
               />
               <p className="text-sm leading-relaxed mb-4 text-gray-400">
                 India's premier free-to-play cricket entertainment and educational platform. Build teams, compete on leaderboards, and master cricket strategy without spending a rupee.
