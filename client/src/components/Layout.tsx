@@ -57,7 +57,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 <img
                   src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/csPzjVtgRRtIPXyF.png"
                   alt="Laser 247 Play"
-                  className="h-10 w-auto"
+                  className="h-10 w-auto" style={{height: '110px'}}
                 />
               </a>
             </Link>
