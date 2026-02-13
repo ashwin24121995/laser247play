@@ -24,7 +24,7 @@ export default function About() {
         <div className="container">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-6xl font-bold text-slate-900 mb-6">
-              About Laser 247 Play
+              About Squad Master Sports
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
               India's premier free-to-play cricket entertainment and educational platform, dedicated to helping cricket enthusiasts master the game through strategic team building and friendly competition.
@@ -41,11 +41,11 @@ export default function About() {
             
             <div className="space-y-6 text-gray-700 leading-relaxed">
               <p>
-                Laser 247 Play was born from a simple yet powerful vision: to create a platform where cricket fans across India could enjoy the thrill of team building and strategic competition without any financial barriers or risks. We recognized that while many people are passionate about cricket and eager to test their knowledge, traditional platforms often involve monetary transactions that create pressure and exclude those who simply want to play for fun and learning.
+                Squad Master Sports was born from a simple yet powerful vision: to create a platform where cricket fans across India could enjoy the thrill of team building and strategic competition without any financial barriers or risks. We recognized that while many people are passionate about cricket and eager to test their knowledge, traditional platforms often involve monetary transactions that create pressure and exclude those who simply want to play for fun and learning.
               </p>
 
               <p>
-                Founded in 2024 and registered under the Ministry of Corporate Affairs with <strong>CIN U10792KA2024PTC186879</strong>, Laser 247 Play represents a new approach to cricket entertainment in India. We are headquartered in Karnataka and operate with a clear mission: to provide completely free, educational, and entertaining cricket experiences that help users deepen their understanding of the game while connecting with fellow enthusiasts.
+                Founded in 2023 and registered under the Ministry of Corporate Affairs with <strong>CIN: U62013TS2023PTC172578</strong>, Squad Master Sports is operated by <strong>Master Squad Solutions Private Limited</strong>. We are headquartered in Hyderabad, Telangana, and operate with a clear mission: to provide completely free, educational, and entertaining cricket experiences that help users deepen their understanding of the game while connecting with fellow enthusiasts.
               </p>
 
               <p>
@@ -53,7 +53,7 @@ export default function About() {
               </p>
 
               <p>
-                What sets Laser 247 Play apart is our unwavering commitment to being <strong>100% free forever</strong>. We are backed by investors who share our vision of cricket education and entertainment without financial pressure. This backing allows us to focus entirely on creating the best possible user experience, developing innovative features, and building a vibrant community of cricket lovers.
+                What sets Squad Master Sports apart is our unwavering commitment to being <strong>100% free forever</strong>. We are backed by investors who share our vision of cricket education and entertainment without financial pressure. This backing allows us to focus entirely on creating the best possible user experience, developing innovative features, and building a vibrant community of cricket lovers.
               </p>
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function About() {
                   To become India's most trusted and loved cricket entertainment platform, recognized for our commitment to free access, educational value, and responsible gaming practices.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  We envision a future where millions of cricket fans use Laser 247 Play to deepen their appreciation of cricket, connect with like-minded enthusiasts, and enjoy the strategic aspects of the game in a safe, supportive environment that prioritizes learning and fun over financial gain.
+                  We envision a future where millions of cricket fans use Squad Master Sports to deepen their appreciation of cricket, connect with like-minded enthusiasts, and enjoy the strategic aspects of the game in a safe, supportive environment that prioritizes learning and fun over financial gain.
                 </p>
               </CardContent>
             </Card>
@@ -105,7 +105,7 @@ export default function About() {
               Our Core Values
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              These principles guide everything we do at Laser 247 Play
+              These principles guide everything we do at Squad Master Sports
             </p>
           </div>
 
@@ -198,7 +198,7 @@ export default function About() {
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold text-slate-900 mb-4">100% Free Forever</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Unlike other platforms that may start free but later introduce premium features or subscriptions, Laser 247 Play is committed to being completely free forever. We're backed by investors who believe in cricket education, which means we never need to charge users. Every feature, every match, every competition is available to all users at no cost.
+                    Unlike other platforms that may start free but later introduce premium features or subscriptions, Squad Master Sports is committed to being completely free forever. We're backed by investors who believe in cricket education, which means we never need to charge users. Every feature, every match, every competition is available to all users at no cost.
                   </p>
                 </CardContent>
               </Card>
@@ -216,7 +216,7 @@ export default function About() {
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold text-slate-900 mb-4">Educational at the Core</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Every feature on Laser 247 Play is designed with education in mind. From detailed player statistics to match analysis tools, we provide resources that help users understand cricket at a deeper level. Our platform isn't just about picking teams - it's about learning why certain players perform well in specific conditions, understanding team dynamics, and developing strategic thinking skills.
+                    Every feature on Squad Master Sports is designed with education in mind. From detailed player statistics to match analysis tools, we provide resources that help users understand cricket at a deeper level. Our platform isn't just about picking teams - it's about learning why certain players perform well in specific conditions, understanding team dynamics, and developing strategic thinking skills.
                   </p>
                 </CardContent>
               </Card>
@@ -234,7 +234,7 @@ export default function About() {
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold text-slate-900 mb-4">All-India Accessibility</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Laser 247 Play is available across all Indian states with no geographical restrictions. As a free educational platform with no real money involved, we welcome cricket fans from every corner of India to join our community and enjoy cricket entertainment together.
+                    Squad Master Sports is available across all Indian states with no geographical restrictions. As a free educational platform with no real money involved, we welcome cricket fans from every corner of India to join our community and enjoy cricket entertainment together.
                   </p>
                 </CardContent>
               </Card>
@@ -260,7 +260,7 @@ export default function About() {
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900 mb-2">Company Name</h3>
-                      <p className="text-gray-700">Laser 247 Play</p>
+                      <p className="text-gray-700">Master Squad Solutions Private Limited</p>
                     </div>
                   </div>
                 </CardContent>
@@ -274,7 +274,7 @@ export default function About() {
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900 mb-2">CIN</h3>
-                      <p className="text-gray-700">U10792KA2024PTC186879</p>
+                      <p className="text-gray-700">U62013TS2023PTC172578</p>
                     </div>
                   </div>
                 </CardContent>
@@ -287,8 +287,8 @@ export default function About() {
                       <FileText className="w-6 h-6 text-orange-600" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-slate-900 mb-2">PAN</h3>
-                      <p className="text-gray-700">AAKCK3043B</p>
+                      <h3 className="font-bold text-slate-900 mb-2">Brand Name</h3>
+                      <p className="text-gray-700">Squad Master Sports</p>
                     </div>
                   </div>
                 </CardContent>
@@ -301,8 +301,8 @@ export default function About() {
                       <FileText className="w-6 h-6 text-teal-600" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-slate-900 mb-2">TAN</h3>
-                      <p className="text-gray-700">BLRK25121F</p>
+                      <h3 className="font-bold text-slate-900 mb-2">Contact Email</h3>
+                      <p className="text-gray-700">Support@squadmastersports.com</p>
                     </div>
                   </div>
                 </CardContent>
@@ -316,7 +316,7 @@ export default function About() {
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900 mb-2">Registered Address</h3>
-                      <p className="text-gray-700">Karnataka, India</p>
+                      <p className="text-gray-700">6-3-885/7/B, 3rd Floor, Anith Plaza, Somajiguda, Hyderabad, Telangana, India, 500082</p>
                     </div>
                   </div>
                 </CardContent>

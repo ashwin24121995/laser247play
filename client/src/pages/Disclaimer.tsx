@@ -16,7 +16,7 @@ export default function Disclaimer() {
               Disclaimer
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed mb-4">
-              Important legal disclaimers and limitations regarding the use of Laser 247 Play. Please read carefully before using our platform.
+              Important legal disclaimers and limitations regarding the use of Squad Master Sports. Please read carefully before using our platform.
             </p>
             <p className="text-sm text-gray-500">
               Last Updated: February 13, 2026
@@ -36,10 +36,10 @@ export default function Disclaimer() {
                   <div>
                     <h2 className="text-3xl font-bold text-slate-900 mb-4">CRITICAL: No Real Money Involved</h2>
                     <p className="text-lg text-gray-800 leading-relaxed mb-4">
-                      <strong>Laser 247 Play is a 100% FREE entertainment and educational platform.</strong> There is absolutely NO real money involved, NO cash prizes, NO deposits, NO withdrawals, and NO financial transactions of any kind.
+                      <strong>Squad Master Sports is a 100% FREE entertainment and educational platform.</strong> There is absolutely NO real money involved, NO cash prizes, NO deposits, NO withdrawals, and NO financial transactions of any kind.
                     </p>
                     <p className="text-lg text-gray-800 leading-relaxed">
-                      This platform is designed purely for cricket entertainment, skill development, and friendly competition. Any expectations of winning real money or monetary rewards are completely false and not endorsed by Laser 247 Play.
+                      This platform is designed purely for cricket entertainment, skill development, and friendly competition. Any expectations of winning real money or monetary rewards are completely false and not endorsed by Squad Master Sports.
                     </p>
                   </div>
                 </div>
@@ -66,7 +66,7 @@ export default function Disclaimer() {
                 <Card className="card-elevated">
                   <CardContent className="p-8">
                     <p className="text-gray-700 leading-relaxed mb-4">
-                      The information and services provided on Laser 247 Play (the "Platform") are for general informational and entertainment purposes only. While we strive to provide accurate and up-to-date information, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability of the Platform or the information, products, services, or related graphics contained on the Platform for any purpose.
+                      The information and services provided on Squad Master Sports (the "Platform") are for general informational and entertainment purposes only. While we strive to provide accurate and up-to-date information, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability of the Platform or the information, products, services, or related graphics contained on the Platform for any purpose.
                     </p>
                     <p className="text-gray-700 leading-relaxed">
                       <strong>Any reliance you place on such information is strictly at your own risk.</strong> In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this Platform.
@@ -91,7 +91,7 @@ export default function Disclaimer() {
                       <div>
                         <h3 className="text-xl font-bold text-slate-900 mb-3">Not a Gambling Platform</h3>
                         <p className="text-gray-700 leading-relaxed mb-4">
-                          Laser 247 Play is <strong>NOT a gambling, betting, or wagering platform</strong> under any applicable laws. We explicitly disclaim any association with:
+                          Squad Master Sports is <strong>NOT a gambling, betting, or wagering platform</strong> under any applicable laws. We explicitly disclaim any association with:
                         </p>
                       </div>
                     </div>
@@ -113,7 +113,7 @@ export default function Disclaimer() {
 
                     <div className="mt-6 p-6 bg-teal-50 rounded-xl border border-teal-200">
                       <p className="text-gray-700 leading-relaxed">
-                        <strong>What We Are:</strong> Laser 247 Play is a free-to-play educational and entertainment platform focused on cricket knowledge, strategy development, and friendly competition. All contests and leaderboards are purely for entertainment value and recognition, with no monetary stakes or rewards.
+                        <strong>What We Are:</strong> Squad Master Sports is a free-to-play educational and entertainment platform focused on cricket knowledge, strategy development, and friendly competition. All contests and leaderboards are purely for entertainment value and recognition, with no monetary stakes or rewards.
                       </p>
                     </div>
                   </CardContent>
@@ -132,7 +132,7 @@ export default function Disclaimer() {
                 <Card className="card-elevated">
                   <CardContent className="p-8">
                     <p className="text-gray-700 leading-relaxed mb-4">
-                      Laser 247 Play does not provide financial, investment, betting, or gambling advice. Any content, statistics, player performance data, or match predictions provided on the Platform are for entertainment and educational purposes only and should not be construed as:
+                      Squad Master Sports does not provide financial, investment, betting, or gambling advice. Any content, statistics, player performance data, or match predictions provided on the Platform are for entertainment and educational purposes only and should not be construed as:
                     </p>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start gap-3">
@@ -253,7 +253,7 @@ export default function Disclaimer() {
                 <Card className="card-elevated">
                   <CardContent className="p-8">
                     <p className="text-gray-700 leading-relaxed mb-4">
-                      The Platform may contain links to third-party websites, services, or content that are not owned or controlled by Laser 247 Play. We have no control over, and assume no responsibility for:
+                      The Platform may contain links to third-party websites, services, or content that are not owned or controlled by Squad Master Sports. We have no control over, and assume no responsibility for:
                     </p>
                     <ul className="space-y-2 text-gray-700 mb-4">
                       <li className="flex items-start gap-2">
@@ -274,7 +274,7 @@ export default function Disclaimer() {
                       </li>
                     </ul>
                     <p className="text-gray-700 leading-relaxed">
-                      <strong>We strongly advise you to read the terms and conditions and privacy policies of any third-party websites or services that you visit.</strong> The inclusion of any link does not imply endorsement by Laser 247 Play.
+                      <strong>We strongly advise you to read the terms and conditions and privacy policies of any third-party websites or services that you visit.</strong> The inclusion of any link does not imply endorsement by Squad Master Sports.
                     </p>
                   </CardContent>
                 </Card>
@@ -327,7 +327,7 @@ export default function Disclaimer() {
                 <Card className="card-elevated">
                   <CardContent className="p-8">
                     <p className="text-gray-700 leading-relaxed mb-4">
-                      Use of the Platform does not create any professional relationship between you and Laser 247 Play. Specifically:
+                      Use of the Platform does not create any professional relationship between you and Squad Master Sports. Specifically:
                     </p>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start gap-3">
@@ -451,7 +451,7 @@ export default function Disclaimer() {
                 <Card className="card-elevated">
                   <CardContent className="p-8">
                     <p className="text-gray-700 leading-relaxed mb-4">
-                      You agree to defend, indemnify, and hold harmless Laser 247 Play and its affiliates, officers, directors, employees, agents, and partners from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including attorney's fees) arising from:
+                      You agree to defend, indemnify, and hold harmless Squad Master Sports and its affiliates, officers, directors, employees, agents, and partners from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including attorney's fees) arising from:
                     </p>
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start gap-2">
@@ -539,25 +539,25 @@ export default function Disclaimer() {
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="p-6 bg-teal-50 rounded-xl border border-teal-200">
                         <h4 className="font-bold text-slate-900 mb-3">Legal Inquiries</h4>
-                        <a href="mailto:legal@laser247play.com" className="text-teal-600 font-semibold hover:text-teal-700">
-                          legal@laser247play.com
+                        <a href="mailto:Support@squadmastersports.com" className="text-teal-600 font-semibold hover:text-teal-700">
+                          Support@squadmastersports.com
                         </a>
                       </div>
 
                       <div className="p-6 bg-orange-50 rounded-xl border border-orange-200">
                         <h4 className="font-bold text-slate-900 mb-3">General Support</h4>
-                        <a href="mailto:support@laser247play.com" className="text-orange-600 font-semibold hover:text-orange-700">
-                          support@laser247play.com
+                        <a href="mailto:Support@squadmastersports.com" className="text-orange-600 font-semibold hover:text-orange-700">
+                          Support@squadmastersports.com
                         </a>
                       </div>
 
                       <div className="p-6 bg-slate-50 rounded-xl border border-slate-200 md:col-span-2">
                         <h4 className="font-bold text-slate-900 mb-3">Postal Address</h4>
                         <p className="text-gray-700">
-                          Laser 247 Play<br />
-                          C/O S K MOHAN, MEKOOR, SIDDAPURA<br />
-                          Pollibetta, Virajpet, Kodagu- 571215<br />
-                          Karnataka, India
+                          Master Squad Solutions Private Limited<br />
+                          6-3-885/7/B, 3rd Floor, Anith Plaza<br />
+                          Somajiguda, Hyderabad, Telangana<br />
+                          India - 500082
                         </p>
                       </div>
                     </div>

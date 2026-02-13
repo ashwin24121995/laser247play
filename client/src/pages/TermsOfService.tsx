@@ -16,7 +16,7 @@ export default function TermsOfService() {
               Terms of Service
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed mb-4">
-              Please read these Terms of Service carefully before using Laser 247 Play. By accessing or using our platform, you agree to be bound by these terms.
+              Please read these Terms of Service carefully before using Squad Master Sports. By accessing or using our platform, you agree to be bound by these terms.
             </p>
             <p className="text-sm text-gray-500">
               Last Updated: February 13, 2026
@@ -36,7 +36,7 @@ export default function TermsOfService() {
                   <div>
                     <h3 className="text-2xl font-bold text-slate-900 mb-3">Important Notice</h3>
                     <p className="text-gray-700 leading-relaxed mb-3">
-                      <strong>Laser 247 Play is a 100% free entertainment and educational platform.</strong> There is no real money involved, no cash prizes, no deposits, and no withdrawals. This platform is designed purely for cricket entertainment, skill development, and friendly competition.
+                      <strong>Squad Master Sports is a 100% free entertainment and educational platform.</strong> There is no real money involved, no cash prizes, no deposits, and no withdrawals. This platform is designed purely for cricket entertainment, skill development, and friendly competition.
                     </p>
                     <p className="text-gray-700 leading-relaxed">
                       By using our platform, you acknowledge that you are 18 years or older and agree to comply with all terms outlined below.
@@ -66,14 +66,14 @@ export default function TermsOfService() {
                 <Card className="card-elevated">
                   <CardContent className="p-8">
                     <p className="text-gray-700 leading-relaxed mb-4">
-                      By accessing, browsing, or using Laser 247 Play (the "Platform"), you acknowledge that you have read, understood, and agree to be bound by these Terms of Service, our Privacy Policy, and all applicable laws and regulations.
+                      By accessing, browsing, or using Squad Master Sports (the "Platform"), you acknowledge that you have read, understood, and agree to be bound by these Terms of Service, our Privacy Policy, and all applicable laws and regulations.
                     </p>
                     <p className="text-gray-700 leading-relaxed mb-4">
                       If you do not agree with any part of these terms, you must not use our Platform. Your continued use of the Platform constitutes acceptance of any updates or modifications to these terms.
                     </p>
                     <div className="p-4 bg-teal-50 rounded-lg border border-teal-200">
                       <p className="text-sm text-gray-700">
-                        <strong>Note:</strong> These Terms of Service constitute a legally binding agreement between you ("User", "you", or "your") and Laser 247 Play ("we", "us", or "our").
+                        <strong>Note:</strong> These Terms of Service constitute a legally binding agreement between you ("User", "you", or "your") and Squad Master Sports ("we", "us", or "our").
                       </p>
                     </div>
                   </CardContent>
@@ -93,7 +93,7 @@ export default function TermsOfService() {
                   <CardContent className="p-8">
                     <h3 className="text-xl font-bold text-slate-900 mb-4">2.1 Age Requirement</h3>
                     <p className="text-gray-700 leading-relaxed mb-4">
-                      You must be at least <strong>18 years of age</strong> to register for and use Laser 247 Play. By creating an account, you represent and warrant that you meet this age requirement. We reserve the right to request proof of age and terminate accounts that violate this requirement.
+                      You must be at least <strong>18 years of age</strong> to register for and use Squad Master Sports. By creating an account, you represent and warrant that you meet this age requirement. We reserve the right to request proof of age and terminate accounts that violate this requirement.
                     </p>
                     <div className="p-4 bg-orange-50 rounded-lg border border-orange-200">
                       <p className="text-sm text-gray-700">
@@ -157,7 +157,7 @@ export default function TermsOfService() {
                   <CardContent className="p-8">
                     <h3 className="text-xl font-bold text-slate-900 mb-4">3.1 Permitted Use</h3>
                     <p className="text-gray-700 leading-relaxed mb-4">
-                      Laser 247 Play grants you a limited, non-exclusive, non-transferable, revocable license to access and use the Platform for personal, non-commercial entertainment and educational purposes.
+                      Squad Master Sports grants you a limited, non-exclusive, non-transferable, revocable license to access and use the Platform for personal, non-commercial entertainment and educational purposes.
                     </p>
                     <div className="grid md:grid-cols-2 gap-4">
                       <div className="p-4 bg-teal-50 rounded-lg border border-teal-200">
@@ -285,7 +285,7 @@ export default function TermsOfService() {
                       <div>
                         <h3 className="text-xl font-bold text-slate-900 mb-3">Free Entertainment Platform</h3>
                         <p className="text-gray-700 leading-relaxed mb-4">
-                          Laser 247 Play is a <strong>100% free entertainment and educational platform</strong>. You acknowledge and agree that:
+                          Squad Master Sports is a <strong>100% free entertainment and educational platform</strong>. You acknowledge and agree that:
                         </p>
                       </div>
                     </div>
@@ -310,7 +310,7 @@ export default function TermsOfService() {
 
                     <div className="mt-6 p-4 bg-orange-50 rounded-lg border border-orange-200">
                       <p className="text-sm text-gray-700">
-                        <strong>Important:</strong> Any claims, representations, or expectations of winning real money, cash prizes, or monetary rewards are false and not endorsed by Laser 247 Play.
+                        <strong>Important:</strong> Any claims, representations, or expectations of winning real money, cash prizes, or monetary rewards are false and not endorsed by Squad Master Sports.
                       </p>
                     </div>
                   </CardContent>
@@ -330,7 +330,7 @@ export default function TermsOfService() {
                   <CardContent className="p-8">
                     <h3 className="text-xl font-bold text-slate-900 mb-4">5.1 Our Intellectual Property</h3>
                     <p className="text-gray-700 leading-relaxed mb-4">
-                      All content, features, and functionality on the Platform, including but not limited to text, graphics, logos, icons, images, audio clips, video clips, data compilations, software, and the compilation thereof (collectively, "Content"), are the exclusive property of Laser 247 Play or its licensors and are protected by Indian and international copyright, trademark, patent, trade secret, and other intellectual property laws.
+                      All content, features, and functionality on the Platform, including but not limited to text, graphics, logos, icons, images, audio clips, video clips, data compilations, software, and the compilation thereof (collectively, "Content"), are the exclusive property of Squad Master Sports or its licensors and are protected by Indian and international copyright, trademark, patent, trade secret, and other intellectual property laws.
                     </p>
                     <p className="text-gray-700 leading-relaxed">
                       You may not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any Content without our prior written consent.
@@ -342,7 +342,7 @@ export default function TermsOfService() {
                   <CardContent className="p-8">
                     <h3 className="text-xl font-bold text-slate-900 mb-4">5.2 User-Generated Content</h3>
                     <p className="text-gray-700 leading-relaxed mb-4">
-                      When you create teams, post comments, or submit any content to the Platform ("User Content"), you grant Laser 247 Play a worldwide, non-exclusive, royalty-free, perpetual, irrevocable license to use, reproduce, modify, adapt, publish, translate, distribute, and display such User Content for platform operation and improvement purposes.
+                      When you create teams, post comments, or submit any content to the Platform ("User Content"), you grant Squad Master Sports a worldwide, non-exclusive, royalty-free, perpetual, irrevocable license to use, reproduce, modify, adapt, publish, translate, distribute, and display such User Content for platform operation and improvement purposes.
                     </p>
                     <p className="text-gray-700 leading-relaxed">
                       You represent and warrant that you own or have the necessary rights to all User Content you submit and that such content does not violate any third-party rights or applicable laws.
@@ -366,7 +366,7 @@ export default function TermsOfService() {
                       THE PLATFORM IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED.
                     </p>
                     <p className="text-gray-700 leading-relaxed mb-4">
-                      To the fullest extent permitted by law, Laser 247 Play disclaims all warranties, express or implied, including but not limited to:
+                      To the fullest extent permitted by law, Squad Master Sports disclaims all warranties, express or implied, including but not limited to:
                     </p>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start gap-3">
@@ -451,7 +451,7 @@ export default function TermsOfService() {
                 <Card className="card-elevated">
                   <CardContent className="p-8">
                     <p className="text-gray-700 leading-relaxed mb-4">
-                      You agree to defend, indemnify, and hold harmless Laser 247 Play, its affiliates, licensors, and service providers, and its and their respective officers, directors, employees, contractors, agents, licensors, suppliers, successors, and assigns from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to:
+                      You agree to defend, indemnify, and hold harmless Squad Master Sports, its affiliates, licensors, and service providers, and its and their respective officers, directors, employees, contractors, agents, licensors, suppliers, successors, and assigns from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to:
                     </p>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start gap-3">
@@ -492,7 +492,7 @@ export default function TermsOfService() {
                   <CardContent className="p-8">
                     <h3 className="text-xl font-bold text-slate-900 mb-4">9.1 Termination by You</h3>
                     <p className="text-gray-700 leading-relaxed">
-                      You may terminate your account at any time by contacting us at support@laser247play.com or through your account settings. Upon termination, your right to use the Platform will immediately cease.
+                      You may terminate your account at any time by contacting us at Support@squadmastersports.com or through your account settings. Upon termination, your right to use the Platform will immediately cease.
                     </p>
                   </CardContent>
                 </Card>
@@ -565,7 +565,7 @@ export default function TermsOfService() {
                   <CardContent className="p-8">
                     <h3 className="text-xl font-bold text-slate-900 mb-4">10.3 Dispute Resolution</h3>
                     <p className="text-gray-700 leading-relaxed mb-4">
-                      Before filing any legal claim, you agree to first contact us at legal@laser247play.com to attempt to resolve the dispute informally. We will make reasonable efforts to resolve disputes amicably within 30 days.
+                      Before filing any legal claim, you agree to first contact us at Support@squadmastersports.com to attempt to resolve the dispute informally. We will make reasonable efforts to resolve disputes amicably within 30 days.
                     </p>
                     <div className="p-4 bg-teal-50 rounded-lg border border-teal-200">
                       <p className="text-sm text-gray-700">
@@ -633,7 +633,7 @@ export default function TermsOfService() {
                       </div>
                       <div>
                         <h4 className="font-bold text-slate-900 mb-2">Entire Agreement</h4>
-                        <p className="text-gray-700 text-sm">These Terms, together with our Privacy Policy and any other legal notices published by us on the Platform, constitute the entire agreement between you and Laser 247 Play concerning the Platform.</p>
+                        <p className="text-gray-700 text-sm">These Terms, together with our Privacy Policy and any other legal notices published by us on the Platform, constitute the entire agreement between you and Squad Master Sports concerning the Platform.</p>
                       </div>
                       <div>
                         <h4 className="font-bold text-slate-900 mb-2">Assignment</h4>
@@ -666,25 +666,25 @@ export default function TermsOfService() {
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="p-6 bg-teal-50 rounded-xl border border-teal-200">
                         <h4 className="font-bold text-slate-900 mb-3">Legal Inquiries</h4>
-                        <a href="mailto:legal@laser247play.com" className="text-teal-600 font-semibold hover:text-teal-700">
-                          legal@laser247play.com
+                        <a href="mailto:Support@squadmastersports.com" className="text-teal-600 font-semibold hover:text-teal-700">
+                          Support@squadmastersports.com
                         </a>
                       </div>
 
                       <div className="p-6 bg-orange-50 rounded-xl border border-orange-200">
                         <h4 className="font-bold text-slate-900 mb-3">General Support</h4>
-                        <a href="mailto:support@laser247play.com" className="text-orange-600 font-semibold hover:text-orange-700">
-                          support@laser247play.com
+                        <a href="mailto:Support@squadmastersports.com" className="text-orange-600 font-semibold hover:text-orange-700">
+                          Support@squadmastersports.com
                         </a>
                       </div>
 
                       <div className="p-6 bg-slate-50 rounded-xl border border-slate-200 md:col-span-2">
                         <h4 className="font-bold text-slate-900 mb-3">Postal Address</h4>
                         <p className="text-gray-700">
-                          Laser 247 Play<br />
-                          C/O S K MOHAN, MEKOOR, SIDDAPURA<br />
-                          Pollibetta, Virajpet, Kodagu- 571215<br />
-                          Karnataka, India
+                          Master Squad Solutions Private Limited<br />
+                          6-3-885/7/B, 3rd Floor, Anith Plaza<br />
+                          Somajiguda, Hyderabad, Telangana<br />
+                          India - 500082
                         </p>
                       </div>
                     </div>

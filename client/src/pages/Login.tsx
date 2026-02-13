@@ -36,7 +36,7 @@ export default function Login() {
         <CardHeader className="space-y-1">
           <CardTitle className="text-2xl font-bold text-center">Welcome Back</CardTitle>
           <CardDescription className="text-center">
-            Login to your Laser 247 Play account
+            Login to your Squad Master Sports account
           </CardDescription>
         </CardHeader>
         <CardContent>

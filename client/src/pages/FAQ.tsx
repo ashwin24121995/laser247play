@@ -23,7 +23,7 @@ export default function FAQ() {
               Frequently Asked Questions
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Find answers to common questions about Laser 247 Play. If you can't find what you're looking for, feel free to contact us.
+              Find answers to common questions about Squad Master Sports. If you can't find what you're looking for, feel free to contact us.
             </p>
           </div>
         </div>
@@ -40,10 +40,10 @@ export default function FAQ() {
                 
                 <AccordionItem value="item-1" className="bg-gradient-to-br from-teal-50 to-white rounded-xl border-2 border-teal-100 px-6 shadow-md">
                   <AccordionTrigger className="text-left font-semibold text-slate-900 hover:text-teal-600">
-                    Is Laser 247 Play really 100% free?
+                    Is Squad Master Sports really 100% free?
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-700 leading-relaxed">
-                    Yes! Laser 247 Play is completely free with no hidden charges, subscriptions, or in-app purchases. We are backed by investors who believe in making cricket education accessible to everyone. You will never be asked to pay anything to use our platform. Every feature, every match, every competition is available to all users at no cost, forever.
+                    Yes! Squad Master Sports is completely free with no hidden charges, subscriptions, or in-app purchases. We are backed by investors who believe in making cricket education accessible to everyone. You will never be asked to pay anything to use our platform. Every feature, every match, every competition is available to all users at no cost, forever.
                   </AccordionContent>
                 </AccordionItem>
 
@@ -52,7 +52,7 @@ export default function FAQ() {
                     Can I win real money on this platform?
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-700 leading-relaxed">
-                    No. Laser 247 Play is a free-to-play educational and entertainment platform. There are no cash prizes, no real money involved, and no financial transactions. We focus purely on cricket knowledge, skill development, and fun competition. You compete on leaderboards for recognition, learning, and personal growth - not for money.
+                    No. Squad Master Sports is a free-to-play educational and entertainment platform. There are no cash prizes, no real money involved, and no financial transactions. We focus purely on cricket knowledge, skill development, and fun competition. You compete on leaderboards for recognition, learning, and personal growth - not for money.
                   </AccordionContent>
                 </AccordionItem>
 
@@ -70,7 +70,7 @@ export default function FAQ() {
                     Is this platform available across all of India?
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-700 leading-relaxed">
-                    Yes! Laser 247 Play is available across all Indian states with no geographical restrictions. As a free educational platform with no real money involved, we welcome cricket fans from every corner of India. Whether you're in Mumbai, Delhi, Bangalore, Kolkata, or any other city or town, you can access and enjoy our platform.
+                    Yes! Squad Master Sports is available across all Indian states with no geographical restrictions. As a free educational platform with no real money involved, we welcome cricket fans from every corner of India. Whether you're in Mumbai, Delhi, Bangalore, Kolkata, or any other city or town, you can access and enjoy our platform.
                   </AccordionContent>
                 </AccordionItem>
 
@@ -275,7 +275,7 @@ export default function FAQ() {
                     What do I get for ranking high on the leaderboard?
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-700 leading-relaxed">
-                    Since Laser 247 Play is a free educational platform with no real money involved, there are no cash prizes or monetary rewards. However, you earn recognition, bragging rights, and the satisfaction of proving your cricket knowledge. High-ranking users are featured on our leaderboard, and you can share your achievements with friends. The real reward is improving your cricket understanding and strategic thinking skills.
+                    Since Squad Master Sports is a free educational platform with no real money involved, there are no cash prizes or monetary rewards. However, you earn recognition, bragging rights, and the satisfaction of proving your cricket knowledge. High-ranking users are featured on our leaderboard, and you can share your achievements with friends. The real reward is improving your cricket understanding and strategic thinking skills.
                   </AccordionContent>
                 </AccordionItem>
               </div>
@@ -289,7 +289,7 @@ export default function FAQ() {
                     What browsers are supported?
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-700 leading-relaxed">
-                    Laser 247 Play works on all modern web browsers including Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, and Opera. We recommend using the latest version of your browser for the best experience. The platform is also fully responsive and works on mobile devices, tablets, and desktops.
+                    Squad Master Sports works on all modern web browsers including Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, and Opera. We recommend using the latest version of your browser for the best experience. The platform is also fully responsive and works on mobile devices, tablets, and desktops.
                   </AccordionContent>
                 </AccordionItem>
 
@@ -298,7 +298,7 @@ export default function FAQ() {
                     Is there a mobile app?
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-700 leading-relaxed">
-                    Currently, Laser 247 Play is a web-based platform accessible through any mobile browser. While we don't have a dedicated mobile app yet, our website is fully optimized for mobile devices and provides a seamless experience on smartphones and tablets. You can add our website to your home screen for quick access. A dedicated mobile app may be released in the future based on user demand.
+                    Currently, Squad Master Sports is a web-based platform accessible through any mobile browser. While we don't have a dedicated mobile app yet, our website is fully optimized for mobile devices and provides a seamless experience on smartphones and tablets. You can add our website to your home screen for quick access. A dedicated mobile app may be released in the future based on user demand.
                   </AccordionContent>
                 </AccordionItem>
 

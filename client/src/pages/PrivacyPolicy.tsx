@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
               Privacy Policy
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed mb-4">
-              Your privacy is important to us. This Privacy Policy explains how Laser 247 Play collects, uses, protects, and shares your personal information.
+              Your privacy is important to us. This Privacy Policy explains how Squad Master Sports collects, uses, protects, and shares your personal information.
             </p>
             <p className="text-sm text-gray-500">
               Last Updated: February 13, 2026
@@ -297,7 +297,7 @@ export default function PrivacyPolicy() {
                   <CardContent className="p-8">
                     <h3 className="text-xl font-bold text-slate-900 mb-4">3.1 We Do NOT Sell Your Data</h3>
                     <p className="text-gray-700 leading-relaxed">
-                      <strong>Laser 247 Play does not sell, rent, or trade your personal information to third parties for marketing or any other purposes.</strong> Your data is valuable to us only for providing you with the best cricket entertainment experience, not as a commodity to be sold.
+                      <strong>Squad Master Sports does not sell, rent, or trade your personal information to third parties for marketing or any other purposes.</strong> Your data is valuable to us only for providing you with the best cricket entertainment experience, not as a commodity to be sold.
                     </p>
                   </CardContent>
                 </Card>
@@ -461,7 +461,7 @@ export default function PrivacyPolicy() {
                     <div className="mt-6 p-6 bg-gradient-to-br from-teal-600 to-teal-700 text-white rounded-xl">
                       <h4 className="font-bold text-xl mb-3">How to Exercise Your Rights</h4>
                       <p className="mb-4">
-                        To exercise any of these rights, please contact us at <a href="mailto:privacy@laser247play.com" className="underline font-semibold">privacy@laser247play.com</a> or through your account settings. We will respond to your request within 30 days.
+                        To exercise any of these rights, please contact us at <a href="mailto:Support@squadmastersports.com" className="underline font-semibold">Support@squadmastersports.com</a> or through your account settings. We will respond to your request within 30 days.
                       </p>
                       <p className="text-sm text-teal-100">
                         You may also lodge a complaint with your local data protection authority if you believe we have not handled your data appropriately.
@@ -575,7 +575,7 @@ export default function PrivacyPolicy() {
                 <Card className="card-elevated">
                   <CardContent className="p-8">
                     <p className="text-gray-700 leading-relaxed">
-                      Laser 247 Play is not intended for users under 18 years of age. We do not knowingly collect personal information from anyone under 18. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately at <a href="mailto:privacy@laser247play.com" className="text-teal-600 font-semibold underline">privacy@laser247play.com</a>. We will promptly delete such information from our systems.
+                      Squad Master Sports is not intended for users under 18 years of age. We do not knowingly collect personal information from anyone under 18. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately at <a href="mailto:Support@squadmastersports.com" className="text-teal-600 font-semibold underline">Support@squadmastersports.com</a>. We will promptly delete such information from our systems.
                     </p>
                   </CardContent>
                 </Card>
@@ -634,25 +634,25 @@ export default function PrivacyPolicy() {
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="p-6 bg-teal-50 rounded-xl border border-teal-200">
                         <h4 className="font-bold text-slate-900 mb-3">Email</h4>
-                        <a href="mailto:privacy@laser247play.com" className="text-teal-600 font-semibold hover:text-teal-700">
-                          privacy@laser247play.com
+                        <a href="mailto:Support@squadmastersports.com" className="text-teal-600 font-semibold hover:text-teal-700">
+                          Support@squadmastersports.com
                         </a>
                       </div>
 
                       <div className="p-6 bg-orange-50 rounded-xl border border-orange-200">
                         <h4 className="font-bold text-slate-900 mb-3">General Support</h4>
-                        <a href="mailto:support@laser247play.com" className="text-orange-600 font-semibold hover:text-orange-700">
-                          support@laser247play.com
+                        <a href="mailto:Support@squadmastersports.com" className="text-orange-600 font-semibold hover:text-orange-700">
+                          Support@squadmastersports.com
                         </a>
                       </div>
 
                       <div className="p-6 bg-slate-50 rounded-xl border border-slate-200 md:col-span-2">
                         <h4 className="font-bold text-slate-900 mb-3">Postal Address</h4>
                         <p className="text-gray-700">
-                          Laser 247 Play<br />
-                          C/O S K MOHAN, MEKOOR, SIDDAPURA<br />
-                          Pollibetta, Virajpet, Kodagu- 571215<br />
-                          Karnataka, India
+                          Master Squad Solutions Private Limited<br />
+                          6-3-885/7/B, 3rd Floor, Anith Plaza<br />
+                          Somajiguda, Hyderabad, Telangana<br />
+                          India - 500082
                         </p>
                       </div>
                     </div>

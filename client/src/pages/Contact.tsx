@@ -60,8 +60,8 @@ export default function Contact() {
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-3">Email Support</h3>
                   <p className="text-gray-600 mb-4">Send us an email and we'll respond within 24-48 hours</p>
-                  <a href="mailto:support@laser247play.com" className="text-teal-600 font-semibold hover:text-teal-700">
-                    support@laser247play.com
+                  <a href="mailto:Support@squadmastersports.com" className="text-teal-600 font-semibold hover:text-teal-700">
+                    Support@squadmastersports.com
                   </a>
                 </CardContent>
               </Card>
@@ -100,8 +100,8 @@ export default function Contact() {
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-3">Legal Inquiries</h3>
                   <p className="text-gray-600 mb-4">For legal matters and compliance questions</p>
-                  <a href="mailto:legal@laser247play.com" className="text-teal-600 font-semibold hover:text-teal-700">
-                    legal@laser247play.com
+                  <a href="mailto:Support@squadmastersports.com" className="text-teal-600 font-semibold hover:text-teal-700">
+                    Support@squadmastersports.com
                   </a>
                 </CardContent>
               </Card>
@@ -246,7 +246,7 @@ export default function Contact() {
                 <CardContent className="p-6">
                   <h3 className="text-lg font-bold text-slate-900 mb-3">Is this platform really free?</h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    Yes! Laser 247 Play is 100% free forever with no hidden charges or subscriptions.
+                    Yes! Squad Master Sports is 100% free forever with no hidden charges or subscriptions.
                   </p>
                   <a href="/faq" className="text-teal-600 font-semibold hover:text-teal-700">
                     View Full FAQ →
@@ -294,28 +294,28 @@ export default function Contact() {
               <Card className="card-elevated">
                 <CardContent className="p-6">
                   <h3 className="font-bold text-slate-900 mb-3">Legal Name</h3>
-                  <p className="text-gray-700">Laser 247 Play</p>
+                  <p className="text-gray-700">Master Squad Solutions Private Limited</p>
                 </CardContent>
               </Card>
 
               <Card className="card-elevated">
                 <CardContent className="p-6">
                   <h3 className="font-bold text-slate-900 mb-3">CIN</h3>
-                  <p className="text-gray-700">U10792KA2024PTC186879</p>
+                  <p className="text-gray-700">U62013TS2023PTC172578</p>
                 </CardContent>
               </Card>
 
               <Card className="card-elevated">
                 <CardContent className="p-6">
-                  <h3 className="font-bold text-slate-900 mb-3">PAN</h3>
-                  <p className="text-gray-700">AAKCK3043B</p>
+                  <h3 className="font-bold text-slate-900 mb-3">Brand Name</h3>
+                  <p className="text-gray-700">Squad Master Sports</p>
                 </CardContent>
               </Card>
 
               <Card className="card-elevated">
                 <CardContent className="p-6">
-                  <h3 className="font-bold text-slate-900 mb-3">TAN</h3>
-                  <p className="text-gray-700">BLRK25121F</p>
+                  <h3 className="font-bold text-slate-900 mb-3">Registered Address</h3>
+                  <p className="text-gray-700">6-3-885/7/B, 3rd Floor, Anith Plaza, Somajiguda, Hyderabad, Telangana, India, 500082</p>
                 </CardContent>
               </Card>
             </div>

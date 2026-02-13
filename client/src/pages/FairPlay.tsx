@@ -17,7 +17,7 @@ export default function FairPlay() {
             <CardContent className="pt-6 prose prose-sm max-w-none">
               <h2>Our Fair Play Commitment</h2>
               <p>
-                At Laser 247 Play, we are committed to providing a fair, transparent, and enjoyable
+                At Squad Master Sports, we are committed to providing a fair, transparent, and enjoyable
                 experience for all users. Our Fair Play Policy ensures that everyone has an equal
                 opportunity to participate and compete.
               </p>
@@ -78,7 +78,7 @@ export default function FairPlay() {
 
               <h2>8. Educational Purpose</h2>
               <p>
-                Remember, Laser 247 Play is designed for entertainment and education. There are no
+                Remember, Squad Master Sports is designed for entertainment and education. There are no
                 real prizes or money involved. The focus should be on learning cricket strategy and
                 having fun, not on winning at any cost.
               </p>

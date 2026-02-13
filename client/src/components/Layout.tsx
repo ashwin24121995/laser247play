@@ -41,7 +41,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               </div>
             </div>
             <div className="text-gray-400">
-              CIN: U10792KA2024PTC186879
+              CIN: U62013TS2023PTC172578
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <a className="flex items-center gap-3">
                 <img
                   src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/csPzjVtgRRtIPXyF.png"
-                  alt="Laser 247 Play"
+                  alt="Squad Master Sports"
                   className="h-10 w-auto" style={{height: '110px'}}
                 />
               </a>
@@ -219,7 +219,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <div className="lg:col-span-2">
               <img
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/csPzjVtgRRtIPXyF.png"
-                alt="Laser 247 Play"
+                alt="Squad Master Sports"
                 className="h-10 w-auto mb-4 brightness-0 invert"
                 style={{height: '110px'}}
               />
@@ -227,8 +227,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 India's premier free-to-play cricket entertainment and educational platform. Build teams, compete on leaderboards, and master cricket strategy without spending a rupee.
               </p>
               <div className="space-y-2 text-sm">
-                <p><strong className="text-white">Laser 247 Play</strong></p>
-                <p>CIN: U10792KA2024PTC186879</p>
+                <p><strong className="text-white">Squad Master Sports</strong></p>
+                <p>CIN: U62013TS2023PTC172578</p>
                 <p>PAN: AAKCK3043B | TAN: BLRK25121F</p>
               </div>
               <div className="flex items-center gap-3 mt-4">
@@ -345,9 +345,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
           {/* Bottom Bar */}
           <div className="border-t border-slate-800 pt-8">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
-              <p>© 2026 Laser 247 Play. All rights reserved.</p>
+              <p>© 2026 Squad Master Sports. All rights reserved. | CIN: U62013TS2023PTC172578</p>
               <p className="text-center md:text-right">
-                Address: C/O S K MOHAN, MEKOOR, SIDDAPURA, Pollibetta, Virajpet, Kodagu- 571215, Karnataka
+                Master Squad Solutions Private Limited | 6-3-885/7/B, 3rd Floor, Anith Plaza, Somajiguda, Hyderabad, Telangana - 500082
               </p>
             </div>
           </div>

@@ -28,7 +28,7 @@ export default function HowToPlay() {
               How To Play
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Get started with Laser 247 Play in just a few simple steps. Learn how to build your dream cricket team, compete with others, and master cricket strategy.
+              Get started with Squad Master Sports in just a few simple steps. Learn how to build your dream cricket team, compete with others, and master cricket strategy.
             </p>
           </div>
         </div>

@@ -48,7 +48,7 @@ export default function Home() {
               </p>
 
               <p className="text-base text-gray-600 mb-8 leading-relaxed">
-                Whether you're a seasoned cricket fan or just starting to learn the game, Laser 247 Play provides a safe, engaging environment to test your cricket knowledge and compete with fellow enthusiasts across India.
+                Whether you're a seasoned cricket fan or just starting to learn the game, Squad Master Sports provides a safe, engaging environment to test your cricket knowledge and compete with fellow enthusiasts across India.
               </p>
 
               <div className="flex flex-wrap gap-4 mb-8">
@@ -119,7 +119,7 @@ export default function Home() {
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-slate-900 mb-3">Our Core Values</h2>
-            <p className="text-lg text-gray-600">What makes Laser 247 Play different</p>
+            <p className="text-lg text-gray-600">What makes Squad Master Sports different</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center p-6 bg-gradient-to-br from-teal-50 to-white rounded-xl border border-teal-200">
@@ -264,7 +264,7 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-br from-slate-50 to-white">
         <div className="container">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-slate-900 mb-4">Why Choose Laser 247 Play?</h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-4">Why Choose Squad Master Sports?</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Experience cricket like never before with our comprehensive entertainment and educational platform
             </p>
@@ -616,9 +616,9 @@ export default function Home() {
             {/* FAQ 1 */}
             <Card className="card-elevated">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Is Laser 247 Play really 100% free?</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3">Is Squad Master Sports really 100% free?</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Yes! Laser 247 Play is completely free with no hidden charges, subscriptions, or in-app purchases. We are backed by investors who believe in making cricket education accessible to everyone. You will never be asked to pay anything to use our platform.
+                  Yes! Squad Master Sports is completely free with no hidden charges, subscriptions, or in-app purchases. We are backed by investors who believe in making cricket education accessible to everyone. You will never be asked to pay anything to use our platform.
                 </p>
               </CardContent>
             </Card>
@@ -628,7 +628,7 @@ export default function Home() {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Can I win real money on this platform?</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  No. Laser 247 Play is a free-to-play educational and entertainment platform. There are no cash prizes, no real money involved, and no financial transactions. We focus purely on cricket knowledge, skill development, and fun competition.
+                  No. Squad Master Sports is a free-to-play educational and entertainment platform. There are no cash prizes, no real money involved, and no financial transactions. We focus purely on cricket knowledge, skill development, and fun competition.
                 </p>
               </CardContent>
             </Card>
@@ -678,7 +678,7 @@ export default function Home() {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Is this platform available across all of India?</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Yes! Laser 247 Play is available across all Indian states with no geographical restrictions. As a free educational platform with no real money involved, we welcome cricket fans from every corner of India.
+                  Yes! Squad Master Sports is available across all Indian states with no geographical restrictions. As a free educational platform with no real money involved, we welcome cricket fans from every corner of India.
                 </p>
               </CardContent>
             </Card>

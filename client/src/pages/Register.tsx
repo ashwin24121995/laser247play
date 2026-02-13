@@ -20,7 +20,7 @@ export default function Register() {
 
   const registerMutation = trpc.auth.register.useMutation({
     onSuccess: () => {
-      toast.success("Registration successful! Welcome to Laser 247 Play!");
+      toast.success("Registration successful! Welcome to Squad Master Sports!");
       setLocation("/dashboard");
     },
     onError: (error) => {
@@ -55,7 +55,7 @@ export default function Register() {
         <CardHeader className="space-y-1">
           <CardTitle className="text-2xl font-bold text-center">Create Account</CardTitle>
           <CardDescription className="text-center">
-            Join Laser 247 Play - Free Cricket Entertainment
+            Join Squad Master Sports - Free Cricket Entertainment
           </CardDescription>
         </CardHeader>
         <CardContent>
