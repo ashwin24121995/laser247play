@@ -183,3 +183,9 @@
 - [x] Update logo in header
 - [x] Update logo in footer
 - [x] Test logo display
+
+
+## Apply Logo Size Consistently
+- [x] Update logo size in footer to 110px
+- [x] Ensure logo displays at 110px across all pages
+- [x] Test logo display on all pages
