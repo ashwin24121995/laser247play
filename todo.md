@@ -150,3 +150,21 @@
 - [x] Redesign About page with new theme
 - [x] Update Layout/Header/Footer with colorful design
 - [x] Ensure all content remains intact
+
+
+## Complete Website Redesign - New Everything
+- [x] Choose completely new color scheme (Teal/Navy/Coral)
+- [x] Select new fonts and typography (Inter + Open Sans)
+- [x] Update global CSS with new design system
+- [x] Redesign header with new navigation layout
+- [x] Redesign footer with new structure
+- [x] Redesign homepage with new layout and visual style
+- [ ] Redesign About page with new layout
+- [ ] Apply new design to all other pages
+- [ ] Ensure all content remains intact
+
+
+## User-Reported Issues
+- [x] Fix content visibility issues (some content not visible)
+- [x] Redesign CTA buttons (user doesn't like current design)
+- [x] Redesign header (user doesn't like current header)
