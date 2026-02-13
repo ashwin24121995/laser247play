@@ -263,3 +263,21 @@
 - [x] Add scroll restoration to reset scroll position on route change
 - [x] Test scroll behavior across all pages
 - [x] Verify pages open from top on navigation
+
+
+## Remove Manus Dependencies for Vercel Deployment
+- [x] Implement standard bcrypt-based password hashing
+- [x] Create JWT-based session management
+- [x] Update database schema to remove Manus-specific fields
+- [x] Remove all Manus OAuth code from server
+- [x] Remove Manus environment variables
+- [x] Update authentication routers with standard email/password
+- [x] Update authentication context and hooks
+- [x] Update Login page to remove OAuth
+- [x] Update Register page with standard form
+- [x] Remove Manus OAuth callbacks and redirects
+- [x] Create deployment documentation
+- [x] Add Vercel deployment configuration
+- [ ] Test complete authentication flow
+- [ ] Push to GitHub
+- [ ] Create deployment-ready checkpoint
