@@ -303,6 +303,6 @@
 - [x] Upload logo to CDN
 - [x] Update logo in Layout header
 - [x] Update logo in footer
-- [ ] Update favicon
-- [ ] Test logo display across all pages
-- [ ] Push updated logo to GitHub
+- [x] Update favicon
+- [x] Test logo display across all pages
+- [x] Push updated logo to GitHub
