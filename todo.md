@@ -168,3 +168,11 @@
 - [x] Fix content visibility issues (some content not visible)
 - [x] Redesign CTA buttons (user doesn't like current design)
 - [x] Redesign header (user doesn't like current header)
+
+
+## New Logo Creation
+- [x] Generate new logo with Teal/Navy/Coral colors
+- [x] Upload logo to CDN
+- [x] Update logo in header
+- [x] Update logo in footer
+- [x] Test logo display across all pages
