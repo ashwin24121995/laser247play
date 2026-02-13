@@ -228,8 +228,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
               </p>
               <div className="space-y-2 text-sm">
                 <p><strong className="text-white">Squad Master Sports</strong></p>
+                <p>Master Squad Solutions Private Limited</p>
                 <p>CIN: U62013TS2023PTC172578</p>
-                <p>PAN: AAKCK3043B | TAN: BLRK25121F</p>
               </div>
               <div className="flex items-center gap-3 mt-4">
                 <div className="w-10 h-10 bg-red-500 rounded-full flex items-center justify-center">
