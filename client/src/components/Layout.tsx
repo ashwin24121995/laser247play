@@ -55,7 +55,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <Link href="/">
               <a className="flex items-center gap-3">
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/qOdECXYvbEqDEoMI.png"
+                  src="https://via.placeholder.com/150"
                   alt="Squad Master Sports"
                   className="h-12 w-auto"
                 />
@@ -218,7 +218,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             {/* Company Info - Takes 2 columns */}
             <div className="lg:col-span-2">
               <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/qOdECXYvbEqDEoMI.png"
+                src="https://via.placeholder.com/150"
                 alt="Squad Master Sports"
                 className="h-12 w-auto mb-4 brightness-0 invert"
               />

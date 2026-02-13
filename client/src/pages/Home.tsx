@@ -92,7 +92,7 @@ export default function Home() {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
                 <img
-                  src="https://private-us-east-1.manuscdn.com/sessionFile/Y7Sk0vn1RqFKRxektkhfh0/sandbox/jgKfAzHwEhwhtfB1nd55tu-img-2_1770939940000_na1fn_aGVyby1jcmlja2V0LWRldGFpbGVk.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvWTdTazB2bjFScUZLUnhla3RraGZoMC9zYW5kYm94L2pnS2ZBekh3RWh3aHRmQjFuZDU1dHUtaW1nLTJfMTc3MDkzOTk0MDAwMF9uYTFmbl9hR1Z5YnkxamNtbGphMlYwTFdSbGRHRnBiR1ZrLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=N9g3yfoeJVVd8~RMGvJQ8IHK9ODmJRioPLKWCXHSR8LMJ4rhutAcl~yBIU-8ty7dDpVBi7ulgNbhUmSBsO14BXtelqGVU7Mwvqng7OBa4GwONcw2LmEnKBeIgxvZYgTEtISVrNfQcz9DHlYePE-wPwbDw~sW5C14jbrPw~VqA7zmXN5Qaw6xWXzo~r5T~cedJcLoPNLuuCylJnFtzGDkudtMl~uKiQlEEJf8NAPLe2I~h41GlXChNvDNtiiq1IWNBFDeuWW-aUU9T3ky3LlViZEaJRRK42iZdKQvulAjY4LHSp-G-jah1xKkGKuk7PtjA3v39eI0KIprttL66ZSCCQ__"
+                  src="https://via.placeholder.com/800x400"
                   alt="Cricket Stadium"
                   className="w-full h-auto"
                 />
@@ -162,7 +162,7 @@ export default function Home() {
               <CardContent className="p-6 text-center">
                 <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
                   <img 
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/dassKpnSfzHkpZzo.png" 
+                    src="https://via.placeholder.com/150" 
                     alt="IPL Logo" 
                     className="w-full h-full object-contain"
                   />
@@ -182,7 +182,7 @@ export default function Home() {
               <CardContent className="p-6 text-center">
                 <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
                   <img 
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/dpUMHGUMjxaowVUc.png" 
+                    src="https://via.placeholder.com/150" 
                     alt="ICC Logo" 
                     className="w-full h-full object-contain"
                   />
@@ -202,7 +202,7 @@ export default function Home() {
               <CardContent className="p-6 text-center">
                 <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
                   <img 
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/oWtvyNkdZPYeFKfs.png" 
+                    src="https://via.placeholder.com/150" 
                     alt="BCCI Logo" 
                     className="w-full h-full object-contain"
                   />
@@ -222,7 +222,7 @@ export default function Home() {
               <CardContent className="p-6 text-center">
                 <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
                   <img 
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/muYJyWkuOIiyxAfF.png" 
+                    src="https://via.placeholder.com/150" 
                     alt="T20 Leagues Logo" 
                     className="w-full h-full object-contain"
                   />
