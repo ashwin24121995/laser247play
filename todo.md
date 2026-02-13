@@ -257,3 +257,9 @@
 - [x] Update footer with Disclaimer link
 - [x] Test all legal page links
 - [x] Ensure footer is consistent across all pages
+
+
+## Fix Page Scroll Issue
+- [x] Add scroll restoration to reset scroll position on route change
+- [x] Test scroll behavior across all pages
+- [x] Verify pages open from top on navigation
