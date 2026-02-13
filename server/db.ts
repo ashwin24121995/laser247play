@@ -1,13 +1,77 @@
-import { drizzle } from 'drizzle-orm/mysql2';
-import mysql from 'mysql2/promise';
-import * as schema from '../drizzle/schema';
+import { eq } from "drizzle-orm";
+import { drizzle } from "drizzle-orm/mysql2";
+import { InsertUser, users } from "../drizzle/schema";
 
-const DATABASE_URL = process.env.DATABASE_URL || 'mysql://placeholder:placeholder@localhost:3306/placeholder';
+let _db: ReturnType<typeof drizzle> | null = null;
 
-// Create connection pool for serverless
-const pool = mysql.createPool({
-  uri: DATABASE_URL,
-  connectionLimit: 1,
-});
+// Lazily create the drizzle instance so local tooling can run without a DB.
+export async function getDb() {
+  if (!_db && process.env.DATABASE_URL) {
+    try {
+      _db = drizzle(process.env.DATABASE_URL);
+    } catch (error) {
+      console.warn("[Database] Failed to connect:", error);
+      _db = null;
+    }
+  }
+  return _db;
+}
 
-export const db = drizzle(pool, { schema, mode: 'default' });
+export async function createUser(user: InsertUser) {
+  const db = await getDb();
+  if (!db) {
+    throw new Error("Database not available");
+  }
+
+  const result = await db.insert(users).values(user);
+  return result;
+}
+
+export async function getUserByEmail(email: string) {
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Database] Cannot get user: database not available");
+    return undefined;
+  }
+
+  const result = await db.select().from(users).where(eq(users.email, email)).limit(1);
+  return result.length > 0 ? result[0] : undefined;
+}
+
+export async function getUserById(id: number) {
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Database] Cannot get user: database not available");
+    return undefined;
+  }
+
+  const result = await db.select().from(users).where(eq(users.id, id)).limit(1);
+  return result.length > 0 ? result[0] : undefined;
+}
+
+export async function updateUserPassword(userId: number, passwordHash: string) {
+  const db = await getDb();
+  if (!db) {
+    throw new Error("Database not available");
+  }
+
+  await db.update(users).set({ passwordHash, updatedAt: new Date() }).where(eq(users.id, userId));
+}
+
+export async function updateUserProfile(userId: number, data: { name?: string; email?: string }) {
+  const db = await getDb();
+  if (!db) {
+    throw new Error("Database not available");
+  }
+
+  await db.update(users).set({ ...data, updatedAt: new Date() }).where(eq(users.id, userId));
+}
+
+export async function updateLastSignIn(userId: number) {
+  const db = await getDb();
+  if (!db) {
+    return;
+  }
+
+  await db.update(users).set({ lastSignedIn: new Date() }).where(eq(users.id, userId));
+}

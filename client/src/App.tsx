@@ -1,8 +1,7 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { Route, Switch, useLocation } from "wouter";
-import { useEffect } from "react";
+import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
@@ -14,9 +13,6 @@ import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
-import TermsOfService from "./pages/TermsOfService";
-import Disclaimer from "./pages/Disclaimer";
 import FairPlay from "./pages/FairPlay";
 import ResponsibleGaming from "./pages/ResponsibleGaming";
 import Blog from "./pages/Blog";
@@ -26,13 +22,6 @@ import Matches from "./pages/Matches";
 import Leaderboard from "./pages/Leaderboard";
 
 function Router() {
-  const [location] = useLocation();
-
-  // Scroll to top on route change
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
-
   return (
     <Switch>
       <Route path={"/"} component={Home} />
@@ -48,9 +37,6 @@ function Router() {
       <Route path={"/contact"} component={Contact} />
       <Route path={"/terms"} component={Terms} />
       <Route path={"/privacy"} component={Privacy} />
-      <Route path={"/privacy-policy"} component={PrivacyPolicy} />
-      <Route path={"/terms-of-service"} component={TermsOfService} />
-      <Route path={"/disclaimer"} component={Disclaimer} />
       <Route path={"/fair-play"} component={FairPlay} />
       <Route path={"/responsible-gaming"} component={ResponsibleGaming} />
       <Route path={"/blog"} component={Blog} />

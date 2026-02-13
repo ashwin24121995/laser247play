@@ -1,13 +1,13 @@
 import { Layout } from "@/components/Layout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { useAuth } from "@/_core/hooks/useAuth";
+import { useCustomAuth } from "@/hooks/useCustomAuth";
 import { useLocation } from "wouter";
 import { Trophy, Users, Target, TrendingUp } from "lucide-react";
 import { useEffect } from "react";
 
 export default function Dashboard() {
-  const { user, isAuthenticated, loading } = useAuth();
+  const { user, isAuthenticated, loading } = useCustomAuth();
   const [, setLocation] = useLocation();
 
   useEffect(() => {

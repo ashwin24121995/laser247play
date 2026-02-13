@@ -1,19 +1,25 @@
 import { Button } from "@/components/ui/button";
-import { useAuth } from "@/_core/hooks/useAuth";
+import { useCustomAuth } from "@/hooks/useCustomAuth";
+import { trpc } from "@/lib/trpc";
 import { Link, useLocation } from "wouter";
 import { toast } from "sonner";
 import { Shield, Menu, X, ChevronRight } from "lucide-react";
 import { useState } from "react";
 
 export function Layout({ children }: { children: React.ReactNode }) {
-  const { user, isAuthenticated, logout } = useAuth();
+  const { user, isAuthenticated } = useCustomAuth();
   const [location, setLocation] = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   
-  const handleLogout = async () => {
-    await logout();
-    toast.success("Logged out successfully");
-    setLocation("/");
+  const logoutMutation = trpc.auth.logout.useMutation({
+    onSuccess: () => {
+      toast.success("Logged out successfully");
+      setLocation("/");
+    },
+  });
+
+  const handleLogout = () => {
+    logoutMutation.mutate();
   };
 
   return (
@@ -35,7 +41,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               </div>
             </div>
             <div className="text-gray-400">
-              CIN: U62013TS2023PTC172578
+              CIN: U10792KA2024PTC186879
             </div>
           </div>
         </div>
@@ -49,9 +55,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <Link href="/">
               <a className="flex items-center gap-3">
                 <img
-                  src="https://via.placeholder.com/150"
-                  alt="Squad Master Sports"
-                  className="h-12 w-auto"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/csPzjVtgRRtIPXyF.png"
+                  alt="Laser 247 Play"
+                  className="h-10 w-auto" style={{height: '110px'}}
                 />
               </a>
             </Link>
@@ -212,17 +218,18 @@ export function Layout({ children }: { children: React.ReactNode }) {
             {/* Company Info - Takes 2 columns */}
             <div className="lg:col-span-2">
               <img
-                src="https://via.placeholder.com/150"
-                alt="Squad Master Sports"
-                className="h-12 w-auto mb-4 brightness-0 invert"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/csPzjVtgRRtIPXyF.png"
+                alt="Laser 247 Play"
+                className="h-10 w-auto mb-4 brightness-0 invert"
+                style={{height: '110px'}}
               />
               <p className="text-sm leading-relaxed mb-4 text-gray-400">
                 India's premier free-to-play cricket entertainment and educational platform. Build teams, compete on leaderboards, and master cricket strategy without spending a rupee.
               </p>
               <div className="space-y-2 text-sm">
-                <p><strong className="text-white">Squad Master Sports</strong></p>
-                <p>Master Squad Solutions Private Limited</p>
-                <p>CIN: U62013TS2023PTC172578</p>
+                <p><strong className="text-white">Laser 247 Play</strong></p>
+                <p>CIN: U10792KA2024PTC186879</p>
+                <p>PAN: AAKCK3043B | TAN: BLRK25121F</p>
               </div>
               <div className="flex items-center gap-3 mt-4">
                 <div className="w-10 h-10 bg-red-500 rounded-full flex items-center justify-center">
@@ -271,18 +278,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <h4 className="text-white font-bold text-sm uppercase tracking-wider mb-4">Legal</h4>
               <ul className="space-y-3 text-sm">
                 <li>
-                  <Link href="/privacy-policy">
+                  <Link href="/terms">
+                    <a className="hover:text-teal-400 transition-colors">Terms & Conditions</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/privacy">
                     <a className="hover:text-teal-400 transition-colors">Privacy Policy</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/terms-of-service">
-                    <a className="hover:text-teal-400 transition-colors">Terms of Service</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/disclaimer">
-                    <a className="hover:text-teal-400 transition-colors">Disclaimer</a>
                   </Link>
                 </li>
                 <li>
@@ -338,9 +340,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
           {/* Bottom Bar */}
           <div className="border-t border-slate-800 pt-8">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
-              <p>© 2026 Squad Master Sports. All rights reserved. | CIN: U62013TS2023PTC172578</p>
+              <p>© 2026 Laser 247 Play. All rights reserved.</p>
               <p className="text-center md:text-right">
-                Master Squad Solutions Private Limited | 6-3-885/7/B, 3rd Floor, Anith Plaza, Somajiguda, Hyderabad, Telangana - 500082
+                Address: C/O S K MOHAN, MEKOOR, SIDDAPURA, Pollibetta, Virajpet, Kodagu- 571215, Karnataka
               </p>
             </div>
           </div>

@@ -17,7 +17,7 @@ export default function ResponsibleGaming() {
             <CardContent className="pt-6 prose prose-sm max-w-none">
               <h2>Our Commitment</h2>
               <p>
-                While Squad Master Sports does not involve real money, we believe in promoting
+                While Laser 247 Play does not involve real money, we believe in promoting
                 responsible and balanced usage of the Platform. Our goal is to ensure that using the
                 Platform remains a fun, educational, and positive experience.
               </p>
@@ -31,7 +31,7 @@ export default function ResponsibleGaming() {
 
               <h2>2. Entertainment, Not Obsession</h2>
               <p>
-                Squad Master Sports is designed for entertainment and learning. While competition can be
+                Laser 247 Play is designed for entertainment and learning. While competition can be
                 exciting, remember that this is a recreational activity. Maintain a healthy balance
                 between using the Platform and other aspects of your life.
               </p>
@@ -55,7 +55,7 @@ export default function ResponsibleGaming() {
 
               <h2>5. No Financial Risk</h2>
               <p>
-                Unlike platforms involving real money, Squad Master Sports carries no financial risk.
+                Unlike platforms involving real money, Laser 247 Play carries no financial risk.
                 There are no deposits, no losses, and no monetary consequences. This makes it a safe
                 environment for cricket entertainment.
               </p>

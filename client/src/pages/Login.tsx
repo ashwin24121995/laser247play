@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useLocation } from "wouter";
-import { api } from "@/lib/api";
+import { trpc } from "@/lib/trpc";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -14,25 +14,20 @@ export default function Login() {
     email: "",
     password: "",
   });
-  const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const loginMutation = trpc.auth.login.useMutation({
+    onSuccess: () => {
+      toast.success("Login successful! Welcome back!");
+      setLocation("/dashboard");
+    },
+    onError: (error) => {
+      toast.error(error.message || "Login failed");
+    },
+  });
+
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsLoading(true);
-    
-    try {
-      const result = await api.auth.login(formData);
-      if (result.success) {
-        toast.success("Login successful! Welcome back!");
-        setLocation("/dashboard");
-      } else {
-        toast.error(result.error || "Login failed");
-      }
-    } catch (error) {
-      toast.error("Login failed");
-    } finally {
-      setIsLoading(false);
-    }
+    loginMutation.mutate(formData);
   };
 
   return (
@@ -41,7 +36,7 @@ export default function Login() {
         <CardHeader className="space-y-1">
           <CardTitle className="text-2xl font-bold text-center">Welcome Back</CardTitle>
           <CardDescription className="text-center">
-            Login to your Squad Master Sports account
+            Login to your Laser 247 Play account
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -70,8 +65,8 @@ export default function Login() {
               />
             </div>
 
-            <Button type="submit" className="w-full" disabled={isLoading}>
-              {isLoading ? (
+            <Button type="submit" className="w-full" disabled={loginMutation.isPending}>
+              {loginMutation.isPending ? (
                 <>
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                   Logging in...

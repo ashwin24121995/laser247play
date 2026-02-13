@@ -15,7 +15,7 @@ export default function Terms() {
             <CardContent className="pt-6 prose prose-sm max-w-none">
               <h2>1. Acceptance of Terms</h2>
               <p>
-                By accessing and using Squad Master Sports ("the Platform"), you accept and agree to be
+                By accessing and using Laser 247 Play ("the Platform"), you accept and agree to be
                 bound by the terms and provisions of this agreement. If you do not agree to these
                 terms, please do not use the Platform.
               </p>
@@ -29,7 +29,7 @@ export default function Terms() {
 
               <h2>3. Platform Purpose</h2>
               <p>
-                Squad Master Sports is a free-to-play cricket entertainment and educational platform. The
+                Laser 247 Play is a free-to-play cricket entertainment and educational platform. The
                 Platform is designed for entertainment purposes only and does not involve real money,
                 prizes, or any form of monetary winnings.
               </p>
@@ -62,7 +62,7 @@ export default function Terms() {
               <h2>7. Intellectual Property</h2>
               <p>
                 All content on the Platform, including text, graphics, logos, and software, is the
-                property of Squad Master Sports and is protected by copyright and other intellectual
+                property of Laser 247 Play and is protected by copyright and other intellectual
                 property laws.
               </p>
 
@@ -81,7 +81,7 @@ export default function Terms() {
 
               <h2>10. Limitation of Liability</h2>
               <p>
-                Squad Master Sports shall not be liable for any indirect, incidental, special,
+                Laser 247 Play shall not be liable for any indirect, incidental, special,
                 consequential, or punitive damages resulting from your use of or inability to use the
                 Platform.
               </p>

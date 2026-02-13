@@ -1,6 +1,7 @@
-import { useEffect, useState, useCallback } from "react";
-import { api, type User } from "@/lib/api";
 import { getLoginUrl } from "@/const";
+import { trpc } from "@/lib/trpc";
+import { TRPCClientError } from "@trpc/client";
+import { useCallback, useEffect, useMemo } from "react";
 
 type UseAuthOptions = {
   redirectOnUnauthenticated?: boolean;
@@ -8,58 +9,76 @@ type UseAuthOptions = {
 };
 
 export function useAuth(options?: UseAuthOptions) {
-  const { redirectOnUnauthenticated = false, redirectPath = getLoginUrl() } = options ?? {};
-  
-  const [user, setUser] = useState<User | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState<Error | null>(null);
+  const { redirectOnUnauthenticated = false, redirectPath = getLoginUrl() } =
+    options ?? {};
+  const utils = trpc.useUtils();
 
-  const fetchUser = useCallback(async () => {
-    try {
-      setIsLoading(true);
-      const res = await api.auth.me();
-      if (res.success && res.user) {
-        setUser(res.user);
-      } else {
-        setUser(null);
-      }
-    } catch (err) {
-      setError(err as Error);
-      setUser(null);
-    } finally {
-      setIsLoading(false);
-    }
-  }, []);
+  const meQuery = trpc.auth.me.useQuery(undefined, {
+    retry: false,
+    refetchOnWindowFocus: false,
+  });
 
-  useEffect(() => {
-    fetchUser();
-  }, [fetchUser]);
-
-  useEffect(() => {
-    if (!redirectOnUnauthenticated) return;
-    if (isLoading) return;
-    if (user) return;
-    if (typeof window === "undefined") return;
-    if (window.location.pathname === redirectPath) return;
-
-    window.location.href = redirectPath;
-  }, [redirectOnUnauthenticated, redirectPath, isLoading, user]);
+  const logoutMutation = trpc.auth.logout.useMutation({
+    onSuccess: () => {
+      utils.auth.me.setData(undefined, null);
+    },
+  });
 
   const logout = useCallback(async () => {
     try {
-      await api.auth.logout();
-      setUser(null);
-    } catch (err) {
-      setError(err as Error);
+      await logoutMutation.mutateAsync();
+    } catch (error: unknown) {
+      if (
+        error instanceof TRPCClientError &&
+        error.data?.code === "UNAUTHORIZED"
+      ) {
+        return;
+      }
+      throw error;
+    } finally {
+      utils.auth.me.setData(undefined, null);
+      await utils.auth.me.invalidate();
     }
-  }, []);
+  }, [logoutMutation, utils]);
+
+  const state = useMemo(() => {
+    localStorage.setItem(
+      "manus-runtime-user-info",
+      JSON.stringify(meQuery.data)
+    );
+    return {
+      user: meQuery.data ?? null,
+      loading: meQuery.isLoading || logoutMutation.isPending,
+      error: meQuery.error ?? logoutMutation.error ?? null,
+      isAuthenticated: Boolean(meQuery.data),
+    };
+  }, [
+    meQuery.data,
+    meQuery.error,
+    meQuery.isLoading,
+    logoutMutation.error,
+    logoutMutation.isPending,
+  ]);
+
+  useEffect(() => {
+    if (!redirectOnUnauthenticated) return;
+    if (meQuery.isLoading || logoutMutation.isPending) return;
+    if (state.user) return;
+    if (typeof window === "undefined") return;
+    if (window.location.pathname === redirectPath) return;
+
+    window.location.href = redirectPath
+  }, [
+    redirectOnUnauthenticated,
+    redirectPath,
+    logoutMutation.isPending,
+    meQuery.isLoading,
+    state.user,
+  ]);
 
   return {
-    user,
-    loading: isLoading,
-    error,
-    isAuthenticated: Boolean(user),
-    refresh: fetchUser,
+    ...state,
+    refresh: () => meQuery.refetch(),
     logout,
   };
 }
