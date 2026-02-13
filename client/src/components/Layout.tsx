@@ -1,25 +1,19 @@
 import { Button } from "@/components/ui/button";
-import { useCustomAuth } from "@/hooks/useCustomAuth";
-import { trpc } from "@/lib/trpc";
+import { useAuth } from "@/_core/hooks/useAuth";
 import { Link, useLocation } from "wouter";
 import { toast } from "sonner";
 import { Shield, Menu, X, ChevronRight } from "lucide-react";
 import { useState } from "react";
 
 export function Layout({ children }: { children: React.ReactNode }) {
-  const { user, isAuthenticated } = useCustomAuth();
+  const { user, isAuthenticated, logout } = useAuth();
   const [location, setLocation] = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   
-  const logoutMutation = trpc.auth.logout.useMutation({
-    onSuccess: () => {
-      toast.success("Logged out successfully");
-      setLocation("/");
-    },
-  });
-
-  const handleLogout = () => {
-    logoutMutation.mutate();
+  const handleLogout = async () => {
+    await logout();
+    toast.success("Logged out successfully");
+    setLocation("/");
   };
 
   return (

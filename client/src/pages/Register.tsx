@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useLocation } from "wouter";
-import { trpc } from "@/lib/trpc";
+import { api } from "@/lib/api";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -15,20 +15,10 @@ export default function Register() {
     password: "",
     confirmPassword: "",
     name: "",
-    dateOfBirth: "",
   });
+  const [isLoading, setIsLoading] = useState(false);
 
-  const registerMutation = trpc.auth.register.useMutation({
-    onSuccess: () => {
-      toast.success("Registration successful! Welcome to Squad Master Sports!");
-      setLocation("/dashboard");
-    },
-    onError: (error) => {
-      toast.error(error.message || "Registration failed");
-    },
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
     if (formData.password !== formData.confirmPassword) {
@@ -36,17 +26,26 @@ export default function Register() {
       return;
     }
 
-    if (!formData.dateOfBirth) {
-      toast.error("Please enter your date of birth");
-      return;
+    setIsLoading(true);
+    
+    try {
+      const result = await api.auth.register({
+        email: formData.email,
+        password: formData.password,
+        name: formData.name,
+      });
+      
+      if (result.success) {
+        toast.success("Registration successful! Welcome to Squad Master Sports!");
+        setLocation("/dashboard");
+      } else {
+        toast.error(result.error || "Registration failed");
+      }
+    } catch (error) {
+      toast.error("Registration failed");
+    } finally {
+      setIsLoading(false);
     }
-
-    registerMutation.mutate({
-      email: formData.email,
-      password: formData.password,
-      name: formData.name,
-      dateOfBirth: formData.dateOfBirth,
-    });
   };
 
   return (
@@ -85,23 +84,6 @@ export default function Register() {
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="dateOfBirth">Date of Birth (Must be 18+)</Label>
-              <Input
-                id="dateOfBirth"
-                type="date"
-                value={formData.dateOfBirth}
-                onChange={(e) => setFormData({ ...formData, dateOfBirth: e.target.value })}
-                max={new Date(new Date().setFullYear(new Date().getFullYear() - 18))
-                  .toISOString()
-                  .split("T")[0]}
-                required
-              />
-              <p className="text-xs text-muted-foreground">
-                You must be at least 18 years old to register
-              </p>
-            </div>
-
-            <div className="space-y-2">
               <Label htmlFor="password">Password</Label>
               <Input
                 id="password"
@@ -135,8 +117,8 @@ export default function Register() {
               </p>
             </div>
 
-            <Button type="submit" className="w-full" disabled={registerMutation.isPending}>
-              {registerMutation.isPending ? (
+            <Button type="submit" className="w-full" disabled={isLoading}>
+              {isLoading ? (
                 <>
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                   Creating Account...

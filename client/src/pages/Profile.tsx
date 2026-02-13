@@ -3,14 +3,14 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { useCustomAuth } from "@/hooks/useCustomAuth";
+import { useAuth } from "@/_core/hooks/useAuth";
 import { useLocation } from "wouter";
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
 import { Loader2 } from "lucide-react";
 
 export default function Profile() {
-  const { user, isAuthenticated, loading } = useCustomAuth();
+  const { user, isAuthenticated, loading } = useAuth();
   const [, setLocation] = useLocation();
   const [formData, setFormData] = useState({
     name: "",

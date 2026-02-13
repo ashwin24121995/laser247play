@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useLocation } from "wouter";
-import { trpc } from "@/lib/trpc";
+import { api } from "@/lib/api";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -14,20 +14,25 @@ export default function Login() {
     email: "",
     password: "",
   });
+  const [isLoading, setIsLoading] = useState(false);
 
-  const loginMutation = trpc.auth.login.useMutation({
-    onSuccess: () => {
-      toast.success("Login successful! Welcome back!");
-      setLocation("/dashboard");
-    },
-    onError: (error) => {
-      toast.error(error.message || "Login failed");
-    },
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    loginMutation.mutate(formData);
+    setIsLoading(true);
+    
+    try {
+      const result = await api.auth.login(formData);
+      if (result.success) {
+        toast.success("Login successful! Welcome back!");
+        setLocation("/dashboard");
+      } else {
+        toast.error(result.error || "Login failed");
+      }
+    } catch (error) {
+      toast.error("Login failed");
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -65,8 +70,8 @@ export default function Login() {
               />
             </div>
 
-            <Button type="submit" className="w-full" disabled={loginMutation.isPending}>
-              {loginMutation.isPending ? (
+            <Button type="submit" className="w-full" disabled={isLoading}>
+              {isLoading ? (
                 <>
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                   Logging in...
