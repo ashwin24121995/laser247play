@@ -26,9 +26,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <div className="flex items-center gap-2">
             <a href="/">
               <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/dcfdzzyIfmzmScUu.png"
+                src="https://private-us-east-1.manuscdn.com/sessionFile/Y7Sk0vn1RqFKRxektkhfh0/sandbox/jgKfAzHwEhwhtfB1nd55tu_1770939943369_na1fn_bG9nby1uZXc.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvWTdTazB2bjFScUZLUnhla3RraGZoMC9zYW5kYm94L2pnS2ZBekh3RWh3aHRmQjFuZDU1dHVfMTc3MDkzOTk0MzM2OV9uYTFmbl9iRzluYnkxdVpYYy5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=Y1i1zYmUinMcByhrFSnPDe7mCEFsMst8CyzkOaeULNp4KvekXlvjP7zqEBLOPR~jwnha2~bcwBAY-S1CN26VISznEDvHRqo2MG~MoaeFLvCweoZDqDlA1quRb3c~OiFf-fmWUnBnLRRqsD~SFnkz8QSGMyhTMrRWaHPLZYd5TS9Jihg9xc8Zd0VcYSElAMheZ90TyJd~zqtAuNSXzq5VvohXVU~oumqlf1ZpU-7L1v-69SmFmFwGI2KKvVuNL6feWSfq~AuoDd2BXOioqiKIPfIqsemBt5nqy1gnmhiqgMvflxUCp8UseuvvRf~SCguWyjT0jKr92PcSqL6QmYcogg__"
                 alt="Laser 247 Play"
-                className="h-10"
+                className="h-12 w-auto"
               />
             </a>
           </div>
