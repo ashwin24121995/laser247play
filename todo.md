@@ -213,3 +213,11 @@
 - [x] Upload logos to CDN
 - [x] Update Cricket Coverage section with actual logos
 - [x] Test logo display
+
+
+## Add FAQ Section and Redesign CTAs
+- [x] Add "Common Questions / FAQ" section to homepage
+- [x] Include 6-8 frequently asked questions with answers
+- [x] Redesign all CTA buttons with new style
+- [x] Test FAQ section display
+- [x] Test new CTA button design

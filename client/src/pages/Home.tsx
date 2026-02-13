@@ -53,13 +53,13 @@ export default function Home() {
 
               <div className="flex flex-wrap gap-4 mb-8">
                 <Link href="/register">
-                  <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white font-semibold px-8 py-6 text-lg shadow-teal">
+                  <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white font-bold px-10 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all">
                     Start Playing Free
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
                 </Link>
                 <Link href="/how-to-play">
-                  <Button size="lg" variant="outline" className="font-semibold px-8 py-6 text-lg border-2 border-slate-800 text-slate-800 hover:bg-slate-800 hover:text-white">
+                  <Button size="lg" variant="outline" className="font-bold px-10 py-4 rounded-xl border-2 border-slate-800 text-slate-800 hover:bg-slate-800 hover:text-white shadow-md hover:shadow-lg transition-all">
                     Learn How It Works
                   </Button>
                 </Link>
@@ -602,6 +602,109 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-20 bg-white">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-slate-900 mb-4">Common Questions</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Frequently Asked Questions
+            </p>
+          </div>
+
+          <div className="max-w-4xl mx-auto space-y-4">
+            {/* FAQ 1 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">Is Laser 247 Play really 100% free?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Yes! Laser 247 Play is completely free with no hidden charges, subscriptions, or in-app purchases. We are backed by investors who believe in making cricket education accessible to everyone. You will never be asked to pay anything to use our platform.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* FAQ 2 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">Can I win real money on this platform?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  No. Laser 247 Play is a free-to-play educational and entertainment platform. There are no cash prizes, no real money involved, and no financial transactions. We focus purely on cricket knowledge, skill development, and fun competition.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* FAQ 3 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">Why do I need to be 18+ to use this platform?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  We require users to be 18 years or older as a responsible gaming practice. Even though there's no real money involved, we want to ensure our platform is used by adults who can make informed decisions about their time and engagement.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* FAQ 4 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">How do I build a cricket team?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  After selecting a match, you'll choose 11 players from both competing teams within a virtual budget. You need to select a balanced team with batsmen, bowlers, all-rounders, and a wicket-keeper. Then pick your captain and vice-captain who earn bonus points. Your team earns points based on real match performance.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* FAQ 5 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">Which cricket tournaments are covered?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  We cover all major cricket tournaments including IPL (Indian Premier League), international matches (Test, ODI, T20I), domestic cricket (Ranji Trophy, Vijay Hazare Trophy, Syed Mushtaq Ali), and global T20 leagues (BBL, CPL, PSL). Over 500+ matches annually across all formats.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* FAQ 6 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">How does the leaderboard work?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Your team earns points based on real player performances in actual cricket matches. Points are awarded for runs, wickets, catches, and other cricket actions. The leaderboard ranks all users based on their total points. You can track your rank nationally and see how you compare with other cricket enthusiasts.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* FAQ 7 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">Is this platform available across all of India?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Yes! Laser 247 Play is available across all Indian states with no geographical restrictions. As a free educational platform with no real money involved, we welcome cricket fans from every corner of India.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* FAQ 8 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">How is my data protected?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  We take data security seriously. All user data is encrypted and stored securely. We follow industry-standard security practices and never share your personal information with third parties. Read our Privacy Policy for complete details on how we protect your data.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="text-center mt-12">
+            <Link href="/faq">
+              <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                View All FAQs
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-teal-600 to-teal-700 text-white">
         <div className="container">
@@ -614,13 +717,13 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link href="/register">
-                <Button size="lg" className="bg-white text-teal-600 hover:bg-gray-100 font-bold px-10 py-7 text-lg shadow-2xl">
+                <Button size="lg" className="bg-white text-teal-600 hover:bg-gray-100 font-bold px-12 py-5 text-lg rounded-xl shadow-2xl hover:shadow-3xl transition-all transform hover:scale-105">
                   Get Started Free Now
                   <ArrowRight className="ml-2 w-6 h-6" />
                 </Button>
               </Link>
               <Link href="/how-to-play">
-                <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white/10 font-bold px-10 py-7 text-lg">
+                <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-teal-600 font-bold px-12 py-5 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
                   Learn More
                 </Button>
               </Link>
