@@ -146,6 +146,104 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Cricket Coverage Section */}
+      <section className="py-20 bg-white">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-slate-900 mb-4">Cricket Coverage</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Comprehensive coverage across all major cricket tournaments and formats
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* IPL */}
+            <Card className="card-elevated hover:shadow-teal transition-all">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Trophy className="w-8 h-8 text-teal-600" />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">Indian Premier League</h3>
+                <p className="text-gray-600 text-sm mb-3">IPL - India's biggest T20 tournament</p>
+                <ul className="text-xs text-gray-600 space-y-1">
+                  <li>All IPL matches covered</li>
+                  <li>Player statistics & analysis</li>
+                  <li>Live match updates</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* International Cricket */}
+            <Card className="card-elevated hover:shadow-navy transition-all">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Globe className="w-8 h-8 text-slate-800" />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">International Matches</h3>
+                <p className="text-gray-600 text-sm mb-3">Test, ODI & T20I matches</p>
+                <ul className="text-xs text-gray-600 space-y-1">
+                  <li>All international cricket</li>
+                  <li>World Cups & Champions Trophy</li>
+                  <li>Bilateral series coverage</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Domestic Leagues */}
+            <Card className="card-elevated hover:shadow-coral transition-all">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Star className="w-8 h-8 text-orange-600" />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">Domestic Cricket</h3>
+                <p className="text-gray-600 text-sm mb-3">Ranji Trophy, Syed Mushtaq Ali & more</p>
+                <ul className="text-xs text-gray-600 space-y-1">
+                  <li>Ranji Trophy matches</li>
+                  <li>Vijay Hazare Trophy</li>
+                  <li>Syed Mushtaq Ali T20</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* T20 Leagues */}
+            <Card className="card-elevated hover:shadow-teal transition-all">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Zap className="w-8 h-8 text-teal-600" />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">Global T20 Leagues</h3>
+                <p className="text-gray-600 text-sm mb-3">BBL, CPL, PSL & other leagues</p>
+                <ul className="text-xs text-gray-600 space-y-1">
+                  <li>Big Bash League (BBL)</li>
+                  <li>Caribbean Premier League</li>
+                  <li>Pakistan Super League</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mt-12 bg-gradient-to-r from-teal-50 to-orange-50 rounded-2xl p-8">
+            <div className="grid md:grid-cols-3 gap-6 text-center">
+              <div>
+                <div className="text-3xl font-bold text-teal-600 mb-2">500+</div>
+                <div className="text-gray-700 font-semibold">Matches Annually</div>
+                <div className="text-sm text-gray-600 mt-1">Across all formats</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-slate-800 mb-2">1000+</div>
+                <div className="text-gray-700 font-semibold">Cricket Players</div>
+                <div className="text-sm text-gray-600 mt-1">International & domestic</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-orange-600 mb-2">24/7</div>
+                <div className="text-gray-700 font-semibold">Live Updates</div>
+                <div className="text-sm text-gray-600 mt-1">Real-time match tracking</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Main Features */}
       <section className="py-20 bg-gradient-to-br from-slate-50 to-white">
         <div className="container">

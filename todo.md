@@ -196,3 +196,10 @@
 - [x] Redesign How It Works section with numbered card layout (similar to reference image)
 - [x] Add detailed descriptions and bullet points to each step
 - [x] Test updated sections
+
+
+## Add Cricket Coverage Section
+- [x] Add "Cricket Coverage / Supported Matches" section to homepage
+- [x] Include tournament types (IPL, International, Domestic, T20 leagues, etc.)
+- [x] Add detailed match coverage information
+- [x] Test new section display
