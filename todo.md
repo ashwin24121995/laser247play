@@ -352,3 +352,20 @@
 - [x] Clean HTML title and remove analytics script
 - [x] Verify no third-party links remain
 - [ ] Push clean code to GitHub
+
+
+## Complete Backend Rebuild for Vercel Serverless
+- [ ] Remove Express and tRPC dependencies
+- [ ] Create Vercel API route structure (api/auth, api/user, etc.)
+- [ ] Convert authentication to serverless-compatible JWT middleware
+- [ ] Update database connection pooling for serverless
+- [ ] Create API route for user registration
+- [ ] Create API route for user login
+- [ ] Create API route for user profile
+- [ ] Create API route for logout
+- [ ] Update frontend to use fetch/axios instead of tRPC
+- [ ] Update all React components to use new API endpoints
+- [ ] Test authentication flow
+- [ ] Test database operations
+- [ ] Update vercel.json configuration
+- [ ] Deploy and verify on Vercel
