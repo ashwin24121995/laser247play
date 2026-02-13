@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
 import { toast } from "sonner";
-import { Loader2, Mail, MapPin, Phone } from "lucide-react";
+import { Loader2, Mail, MapPin, Clock, Send, MessageSquare, HelpCircle, Phone, Globe, FileText } from "lucide-react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -22,124 +22,306 @@ export default function Contact() {
     setIsSubmitting(true);
 
     // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    await new Promise((resolve) => setTimeout(resolve, 1500));
 
-    toast.success("Message sent successfully! We'll get back to you soon.");
+    toast.success("Message sent successfully! We'll get back to you within 24-48 hours.");
     setFormData({ name: "", email: "", subject: "", message: "" });
     setIsSubmitting(false);
   };
 
   return (
     <Layout>
-      <div className="py-12 bg-gradient-to-br from-blue-50 to-orange-50">
-        <div className="container max-w-5xl">
-          <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold mb-4">Contact Us</h1>
-            <p className="text-xl text-muted-foreground">
-              Have questions? We'd love to hear from you.
+      {/* Hero Section */}
+      <section className="py-20 bg-gradient-to-br from-teal-50 via-white to-orange-50">
+        <div className="container">
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="w-20 h-20 bg-teal-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+              <MessageSquare className="w-10 h-10 text-teal-600" />
+            </div>
+            <h1 className="text-4xl lg:text-6xl font-bold text-slate-900 mb-6">
+              Contact Us
+            </h1>
+            <p className="text-xl text-gray-600 leading-relaxed">
+              Have questions or need assistance? We're here to help! Reach out to our support team and we'll get back to you as soon as possible.
             </p>
           </div>
+        </div>
+      </section>
 
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
-            <Card>
-              <CardContent className="pt-6 text-center">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Mail className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="font-semibold mb-2">Email</h3>
-                <p className="text-sm text-muted-foreground">support@laser247play.com</p>
-              </CardContent>
-            </Card>
+      {/* Contact Cards */}
+      <section className="py-20 bg-white">
+        <div className="container">
+          <div className="max-w-5xl mx-auto">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+              <Card className="card-elevated hover:shadow-teal transition-all">
+                <CardContent className="p-8 text-center">
+                  <div className="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                    <Mail className="w-8 h-8 text-teal-600" />
+                  </div>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3">Email Support</h3>
+                  <p className="text-gray-600 mb-4">Send us an email and we'll respond within 24-48 hours</p>
+                  <a href="mailto:Support@squadmastersports.com" className="text-teal-600 font-semibold hover:text-teal-700">
+                    Support@squadmastersports.com
+                  </a>
+                </CardContent>
+              </Card>
 
-            <Card>
-              <CardContent className="pt-6 text-center">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <MapPin className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="font-semibold mb-2">Address</h3>
-                <p className="text-sm text-muted-foreground">
-                  C/O S K MOHAN, MEKOOR, SIDDAPURA, Pollibetta, Virajpet, Kodagu- 571215, Karnataka
-                </p>
-              </CardContent>
-            </Card>
+              <Card className="card-elevated hover:shadow-navy transition-all">
+                <CardContent className="p-8 text-center">
+                  <div className="w-16 h-16 bg-slate-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                    <MapPin className="w-8 h-8 text-slate-800" />
+                  </div>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3">Office Address</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    C/O S K MOHAN, MEKOOR, SIDDAPURA, Pollibetta, Virajpet, Kodagu- 571215, Karnataka, India
+                  </p>
+                </CardContent>
+              </Card>
 
-            <Card>
-              <CardContent className="pt-6 text-center">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Phone className="h-6 w-6 text-primary" />
+              <Card className="card-elevated hover:shadow-coral transition-all">
+                <CardContent className="p-8 text-center">
+                  <div className="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                    <Clock className="w-8 h-8 text-orange-600" />
+                  </div>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3">Support Hours</h3>
+                  <p className="text-gray-600 mb-2">
+                    <strong>Monday - Friday</strong>
+                  </p>
+                  <p className="text-gray-600">
+                    9:00 AM - 6:00 PM IST
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="card-elevated hover:shadow-teal transition-all">
+                <CardContent className="p-8 text-center">
+                  <div className="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                    <FileText className="w-8 h-8 text-teal-600" />
+                  </div>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3">Legal Inquiries</h3>
+                  <p className="text-gray-600 mb-4">For legal matters and compliance questions</p>
+                  <a href="mailto:Support@squadmastersports.com" className="text-teal-600 font-semibold hover:text-teal-700">
+                    Support@squadmastersports.com
+                  </a>
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Contact Form */}
+            <Card className="card-elevated">
+              <CardContent className="p-10">
+                <div className="text-center mb-8">
+                  <h2 className="text-3xl font-bold text-slate-900 mb-4">Send Us a Message</h2>
+                  <p className="text-gray-600 leading-relaxed">
+                    Fill out the form below and our support team will get back to you within 24-48 hours. Please provide as much detail as possible to help us assist you better.
+                  </p>
                 </div>
-                <h3 className="font-semibold mb-2">Support Hours</h3>
-                <p className="text-sm text-muted-foreground">Monday - Friday, 9 AM - 6 PM IST</p>
+
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div>
+                      <Label htmlFor="name" className="text-slate-900 font-semibold mb-2 block">
+                        Full Name *
+                      </Label>
+                      <Input
+                        id="name"
+                        type="text"
+                        placeholder="Enter your full name"
+                        value={formData.name}
+                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                        required
+                        className="h-12 border-2 border-gray-200 focus:border-teal-600 rounded-lg"
+                      />
+                    </div>
+
+                    <div>
+                      <Label htmlFor="email" className="text-slate-900 font-semibold mb-2 block">
+                        Email Address *
+                      </Label>
+                      <Input
+                        id="email"
+                        type="email"
+                        placeholder="your.email@example.com"
+                        value={formData.email}
+                        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                        required
+                        className="h-12 border-2 border-gray-200 focus:border-teal-600 rounded-lg"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <Label htmlFor="subject" className="text-slate-900 font-semibold mb-2 block">
+                      Subject *
+                    </Label>
+                    <Input
+                      id="subject"
+                      type="text"
+                      placeholder="What is your message about?"
+                      value={formData.subject}
+                      onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
+                      required
+                      className="h-12 border-2 border-gray-200 focus:border-teal-600 rounded-lg"
+                    />
+                  </div>
+
+                  <div>
+                    <Label htmlFor="message" className="text-slate-900 font-semibold mb-2 block">
+                      Message *
+                    </Label>
+                    <Textarea
+                      id="message"
+                      placeholder="Please provide as much detail as possible about your question or issue..."
+                      value={formData.message}
+                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                      required
+                      rows={6}
+                      className="border-2 border-gray-200 focus:border-teal-600 rounded-lg resize-none"
+                    />
+                  </div>
+
+                  <div className="flex items-start gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200">
+                    <HelpCircle className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
+                    <p className="text-sm text-gray-700 leading-relaxed">
+                      <strong>Tip:</strong> For faster support, please include relevant details such as your username, the match/team you're referring to, or screenshots of any errors you're experiencing.
+                    </p>
+                  </div>
+
+                  <Button
+                    type="submit"
+                    disabled={isSubmitting}
+                    size="lg"
+                    className="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold px-8 py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all"
+                  >
+                    {isSubmitting ? (
+                      <>
+                        <Loader2 className="mr-2 h-5 w-5 animate-spin" />
+                        Sending Message...
+                      </>
+                    ) : (
+                      <>
+                        <Send className="mr-2 h-5 w-5" />
+                        Send Message
+                      </>
+                    )}
+                  </Button>
+
+                  <p className="text-sm text-gray-500 text-center">
+                    By submitting this form, you agree to our <a href="/privacy-policy" className="text-teal-600 hover:text-teal-700 font-semibold">Privacy Policy</a> and <a href="/terms-of-service" className="text-teal-600 hover:text-teal-700 font-semibold">Terms of Service</a>.
+                  </p>
+                </form>
               </CardContent>
             </Card>
           </div>
-
-          <Card>
-            <CardContent className="pt-6">
-              <h2 className="text-2xl font-semibold mb-6">Send us a message</h2>
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div className="space-y-2">
-                    <Label htmlFor="name">Name</Label>
-                    <Input
-                      id="name"
-                      placeholder="Your name"
-                      value={formData.name}
-                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      required
-                    />
-                  </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="email">Email</Label>
-                    <Input
-                      id="email"
-                      type="email"
-                      placeholder="your.email@example.com"
-                      value={formData.email}
-                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      required
-                    />
-                  </div>
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="subject">Subject</Label>
-                  <Input
-                    id="subject"
-                    placeholder="What is this regarding?"
-                    value={formData.subject}
-                    onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                    required
-                  />
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="message">Message</Label>
-                  <Textarea
-                    id="message"
-                    placeholder="Tell us more about your inquiry..."
-                    rows={6}
-                    value={formData.message}
-                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    required
-                  />
-                </div>
-
-                <Button type="submit" size="lg" disabled={isSubmitting}>
-                  {isSubmitting ? (
-                    <>
-                      <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                      Sending...
-                    </>
-                  ) : (
-                    "Send Message"
-                  )}
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
         </div>
-      </div>
+      </section>
+
+      {/* Common Questions */}
+      <section className="py-20 bg-gradient-to-br from-teal-50 to-orange-50">
+        <div className="container">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl font-bold text-slate-900 mb-4">
+                Common Questions
+              </h2>
+              <p className="text-xl text-gray-600">
+                Before contacting us, check if your question is answered in our FAQ
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              <Card className="card-elevated">
+                <CardContent className="p-6">
+                  <h3 className="text-lg font-bold text-slate-900 mb-3">How do I reset my password?</h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Click "Forgot Password" on the login page and follow the instructions sent to your email.
+                  </p>
+                  <a href="/faq" className="text-teal-600 font-semibold hover:text-teal-700">
+                    View Full FAQ →
+                  </a>
+                </CardContent>
+              </Card>
+
+              <Card className="card-elevated">
+                <CardContent className="p-6">
+                  <h3 className="text-lg font-bold text-slate-900 mb-3">Is this platform really free?</h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Yes! Squad Master Sports is 100% free forever with no hidden charges or subscriptions.
+                  </p>
+                  <a href="/faq" className="text-teal-600 font-semibold hover:text-teal-700">
+                    View Full FAQ →
+                  </a>
+                </CardContent>
+              </Card>
+
+              <Card className="card-elevated">
+                <CardContent className="p-6">
+                  <h3 className="text-lg font-bold text-slate-900 mb-3">How do I build a team?</h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Select a match, choose 11 players within budget, pick captain/vice-captain, and submit.
+                  </p>
+                  <a href="/how-to-play" className="text-teal-600 font-semibold hover:text-teal-700">
+                    View How To Play →
+                  </a>
+                </CardContent>
+              </Card>
+
+              <Card className="card-elevated">
+                <CardContent className="p-6">
+                  <h3 className="text-lg font-bold text-slate-900 mb-3">Which tournaments are covered?</h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    IPL, international matches, domestic cricket, and global T20 leagues - over 500+ matches annually.
+                  </p>
+                  <a href="/faq" className="text-teal-600 font-semibold hover:text-teal-700">
+                    View Full FAQ →
+                  </a>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Company Information */}
+      <section className="py-20 bg-white">
+        <div className="container">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold text-slate-900 mb-12 text-center">
+              Company Information
+            </h2>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              <Card className="card-elevated">
+                <CardContent className="p-6">
+                  <h3 className="font-bold text-slate-900 mb-3">Legal Name</h3>
+                  <p className="text-gray-700">Master Squad Solutions Private Limited</p>
+                </CardContent>
+              </Card>
+
+              <Card className="card-elevated">
+                <CardContent className="p-6">
+                  <h3 className="font-bold text-slate-900 mb-3">CIN</h3>
+                  <p className="text-gray-700">U62013TS2023PTC172578</p>
+                </CardContent>
+              </Card>
+
+              <Card className="card-elevated">
+                <CardContent className="p-6">
+                  <h3 className="font-bold text-slate-900 mb-3">Brand Name</h3>
+                  <p className="text-gray-700">Squad Master Sports</p>
+                </CardContent>
+              </Card>
+
+              <Card className="card-elevated">
+                <CardContent className="p-6">
+                  <h3 className="font-bold text-slate-900 mb-3">Registered Address</h3>
+                  <p className="text-gray-700">6-3-885/7/B, 3rd Floor, Anith Plaza, Somajiguda, Hyderabad, Telangana, India, 500082</p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
     </Layout>
   );
 }

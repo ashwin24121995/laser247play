@@ -196,3 +196,118 @@
 - [x] Redesign How It Works section with numbered card layout (similar to reference image)
 - [x] Add detailed descriptions and bullet points to each step
 - [x] Test updated sections
+
+
+## Add Cricket Coverage Section
+- [x] Add "Cricket Coverage / Supported Matches" section to homepage
+- [x] Include tournament types (IPL, International, Domestic, T20 leagues, etc.)
+- [x] Add detailed match coverage information
+- [x] Test new section display
+
+
+## Replace Icons with Actual Cricket Logos
+- [x] Generate IPL logo
+- [x] Generate ICC (International Cricket) logo
+- [x] Generate BCCI (Domestic Cricket) logo
+- [x] Generate T20 Leagues logo
+- [x] Upload logos to CDN
+- [x] Update Cricket Coverage section with actual logos
+- [x] Test logo display
+
+
+## Add FAQ Section and Redesign CTAs
+- [x] Add "Common Questions / FAQ" section to homepage
+- [x] Include 6-8 frequently asked questions with answers
+- [x] Redesign all CTA buttons with new style
+- [x] Test FAQ section display
+- [x] Test new CTA button design
+
+
+## Redesign All Remaining Pages with Modern Theme
+- [x] Redesign About Us page with detailed content and Teal/Navy/Coral theme
+- [x] Redesign How To Play page with comprehensive step-by-step guide
+- [x] Redesign FAQ page with extensive Q&A and modern layout
+- [x] Redesign Contact page with modern form design
+- [x] Redesign Dashboard page with detailed stats and modern cards
+- [x] Redesign Profile page with comprehensive user information
+- [x] Redesign Matches page with detailed match cards
+- [x] Redesign Leaderboard page with enhanced ranking display
+- [x] Ensure perfect alignment and spacing across all pages
+- [x] Test all pages for consistency
+
+
+## Create Comprehensive Legal Pages
+- [x] Create Privacy Policy page with detailed data collection, usage, and protection policies
+- [x] Create Terms of Service page with comprehensive user agreements and platform rules
+- [x] Create Disclaimer page with complete legal disclaimers and liability information
+- [x] Design legal pages with modern Teal/Navy/Coral theme
+- [x] Ensure legal content is comprehensive and professionally written
+- [x] Add table of contents/navigation for long legal pages
+- [x] Make legal text readable with proper formatting and sections
+
+## Enhance Contact Page
+- [x] Add legal inquiries contact card
+- [x] Add links to Privacy Policy and Terms of Service in form disclaimer
+- [x] Improve layout with 4-column grid for contact cards
+- [x] Enhance visual design and user experience
+
+## Add Legal Links to Footer
+- [x] Update footer with Privacy Policy link
+- [x] Update footer with Terms of Service link
+- [x] Update footer with Disclaimer link
+- [x] Test all legal page links
+- [x] Ensure footer is consistent across all pages
+
+
+## Fix Page Scroll Issue
+- [x] Add scroll restoration to reset scroll position on route change
+- [x] Test scroll behavior across all pages
+- [x] Verify pages open from top on navigation
+
+
+## Remove Manus Dependencies for Vercel Deployment
+- [x] Implement standard bcrypt-based password hashing
+- [x] Create JWT-based session management
+- [x] Update database schema to remove Manus-specific fields
+- [x] Remove all Manus OAuth code from server
+- [x] Remove Manus environment variables
+- [x] Update authentication routers with standard email/password
+- [x] Update authentication context and hooks
+- [x] Update Login page to remove OAuth
+- [x] Update Register page with standard form
+- [x] Remove Manus OAuth callbacks and redirects
+- [x] Create deployment documentation
+- [x] Add Vercel deployment configuration
+- [x] Test complete authentication flow
+- [x] Push to GitHub
+- [ ] Create deployment-ready checkpoint
+
+
+## Update Real Company Information
+- [x] Update brand name to "Squad Master Sports" across all pages
+- [x] Update company name to "Master Squad Solutions Private Limited"
+- [x] Update contact email to Support@squadmastersports.com
+- [x] Update company address to real Hyderabad address
+- [x] Update CIN to U62013TS2023PTC172578
+- [x] Remove all fake/placeholder information
+- [x] Update footer with real company details
+- [x] Update About page with real company information
+- [x] Update Contact page with real contact details
+- [x] Update all legal pages (Privacy, Terms, Disclaimer) with real company info
+- [x] Test all pages for updated information
+- [x] Push updated code to GitHub
+
+
+## Create New Squad Master Sports Logo
+- [x] Generate Squad Master Sports logo with cricket theme (teal/navy/coral colors)
+- [x] Upload logo to CDN
+- [x] Update logo in Layout header
+- [x] Update logo in footer
+- [x] Update favicon
+- [x] Test logo display across all pages
+- [x] Push updated logo to GitHub
+
+
+## Critical Bugs (Production Down)
+- [ ] Fix 500 INTERNAL_SERVER_ERROR on production website (https://247play.vercel.app)
+- [ ] Fix TypeScript errors in server/auth.ts (23 errors causing server crash)

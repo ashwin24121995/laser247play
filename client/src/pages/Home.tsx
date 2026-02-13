@@ -48,18 +48,18 @@ export default function Home() {
               </p>
 
               <p className="text-base text-gray-600 mb-8 leading-relaxed">
-                Whether you're a seasoned cricket fan or just starting to learn the game, Laser 247 Play provides a safe, engaging environment to test your cricket knowledge and compete with fellow enthusiasts across India.
+                Whether you're a seasoned cricket fan or just starting to learn the game, Squad Master Sports provides a safe, engaging environment to test your cricket knowledge and compete with fellow enthusiasts across India.
               </p>
 
               <div className="flex flex-wrap gap-4 mb-8">
                 <Link href="/register">
-                  <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white font-semibold px-8 py-6 text-lg shadow-teal">
+                  <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white font-bold px-10 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all">
                     Start Playing Free
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
                 </Link>
                 <Link href="/how-to-play">
-                  <Button size="lg" variant="outline" className="font-semibold px-8 py-6 text-lg border-2 border-slate-800 text-slate-800 hover:bg-slate-800 hover:text-white">
+                  <Button size="lg" variant="outline" className="font-bold px-10 py-4 rounded-xl border-2 border-slate-800 text-slate-800 hover:bg-slate-800 hover:text-white shadow-md hover:shadow-lg transition-all">
                     Learn How It Works
                   </Button>
                 </Link>
@@ -119,7 +119,7 @@ export default function Home() {
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-slate-900 mb-3">Our Core Values</h2>
-            <p className="text-lg text-gray-600">What makes Laser 247 Play different</p>
+            <p className="text-lg text-gray-600">What makes Squad Master Sports different</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center p-6 bg-gradient-to-br from-teal-50 to-white rounded-xl border border-teal-200">
@@ -146,11 +146,125 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Cricket Coverage Section */}
+      <section className="py-20 bg-white">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-slate-900 mb-4">Cricket Coverage</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Comprehensive coverage across all major cricket tournaments and formats
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* IPL */}
+            <Card className="card-elevated hover:shadow-teal transition-all">
+              <CardContent className="p-6 text-center">
+                <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/dassKpnSfzHkpZzo.png" 
+                    alt="IPL Logo" 
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">Indian Premier League</h3>
+                <p className="text-gray-600 text-sm mb-3">IPL - India's biggest T20 tournament</p>
+                <ul className="text-xs text-gray-600 space-y-1">
+                  <li>All IPL matches covered</li>
+                  <li>Player statistics & analysis</li>
+                  <li>Live match updates</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* International Cricket */}
+            <Card className="card-elevated hover:shadow-navy transition-all">
+              <CardContent className="p-6 text-center">
+                <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/dpUMHGUMjxaowVUc.png" 
+                    alt="ICC Logo" 
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">International Matches</h3>
+                <p className="text-gray-600 text-sm mb-3">Test, ODI & T20I matches</p>
+                <ul className="text-xs text-gray-600 space-y-1">
+                  <li>All international cricket</li>
+                  <li>World Cups & Champions Trophy</li>
+                  <li>Bilateral series coverage</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Domestic Leagues */}
+            <Card className="card-elevated hover:shadow-coral transition-all">
+              <CardContent className="p-6 text-center">
+                <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/oWtvyNkdZPYeFKfs.png" 
+                    alt="BCCI Logo" 
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">Domestic Cricket</h3>
+                <p className="text-gray-600 text-sm mb-3">Ranji Trophy, Syed Mushtaq Ali & more</p>
+                <ul className="text-xs text-gray-600 space-y-1">
+                  <li>Ranji Trophy matches</li>
+                  <li>Vijay Hazare Trophy</li>
+                  <li>Syed Mushtaq Ali T20</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* T20 Leagues */}
+            <Card className="card-elevated hover:shadow-teal transition-all">
+              <CardContent className="p-6 text-center">
+                <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663073602365/muYJyWkuOIiyxAfF.png" 
+                    alt="T20 Leagues Logo" 
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">Global T20 Leagues</h3>
+                <p className="text-gray-600 text-sm mb-3">BBL, CPL, PSL & other leagues</p>
+                <ul className="text-xs text-gray-600 space-y-1">
+                  <li>Big Bash League (BBL)</li>
+                  <li>Caribbean Premier League</li>
+                  <li>Pakistan Super League</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mt-12 bg-gradient-to-r from-teal-50 to-orange-50 rounded-2xl p-8">
+            <div className="grid md:grid-cols-3 gap-6 text-center">
+              <div>
+                <div className="text-3xl font-bold text-teal-600 mb-2">500+</div>
+                <div className="text-gray-700 font-semibold">Matches Annually</div>
+                <div className="text-sm text-gray-600 mt-1">Across all formats</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-slate-800 mb-2">1000+</div>
+                <div className="text-gray-700 font-semibold">Cricket Players</div>
+                <div className="text-sm text-gray-600 mt-1">International & domestic</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-orange-600 mb-2">24/7</div>
+                <div className="text-gray-700 font-semibold">Live Updates</div>
+                <div className="text-sm text-gray-600 mt-1">Real-time match tracking</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Main Features */}
       <section className="py-20 bg-gradient-to-br from-slate-50 to-white">
         <div className="container">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-slate-900 mb-4">Why Choose Laser 247 Play?</h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-4">Why Choose Squad Master Sports?</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Experience cricket like never before with our comprehensive entertainment and educational platform
             </p>
@@ -488,6 +602,109 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-20 bg-white">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-slate-900 mb-4">Common Questions</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Frequently Asked Questions
+            </p>
+          </div>
+
+          <div className="max-w-4xl mx-auto space-y-4">
+            {/* FAQ 1 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">Is Squad Master Sports really 100% free?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Yes! Squad Master Sports is completely free with no hidden charges, subscriptions, or in-app purchases. We are backed by investors who believe in making cricket education accessible to everyone. You will never be asked to pay anything to use our platform.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* FAQ 2 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">Can I win real money on this platform?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  No. Squad Master Sports is a free-to-play educational and entertainment platform. There are no cash prizes, no real money involved, and no financial transactions. We focus purely on cricket knowledge, skill development, and fun competition.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* FAQ 3 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">Why do I need to be 18+ to use this platform?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  We require users to be 18 years or older as a responsible gaming practice. Even though there's no real money involved, we want to ensure our platform is used by adults who can make informed decisions about their time and engagement.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* FAQ 4 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">How do I build a cricket team?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  After selecting a match, you'll choose 11 players from both competing teams within a virtual budget. You need to select a balanced team with batsmen, bowlers, all-rounders, and a wicket-keeper. Then pick your captain and vice-captain who earn bonus points. Your team earns points based on real match performance.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* FAQ 5 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">Which cricket tournaments are covered?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  We cover all major cricket tournaments including IPL (Indian Premier League), international matches (Test, ODI, T20I), domestic cricket (Ranji Trophy, Vijay Hazare Trophy, Syed Mushtaq Ali), and global T20 leagues (BBL, CPL, PSL). Over 500+ matches annually across all formats.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* FAQ 6 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">How does the leaderboard work?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Your team earns points based on real player performances in actual cricket matches. Points are awarded for runs, wickets, catches, and other cricket actions. The leaderboard ranks all users based on their total points. You can track your rank nationally and see how you compare with other cricket enthusiasts.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* FAQ 7 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">Is this platform available across all of India?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Yes! Squad Master Sports is available across all Indian states with no geographical restrictions. As a free educational platform with no real money involved, we welcome cricket fans from every corner of India.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* FAQ 8 */}
+            <Card className="card-elevated">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">How is my data protected?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  We take data security seriously. All user data is encrypted and stored securely. We follow industry-standard security practices and never share your personal information with third parties. Read our Privacy Policy for complete details on how we protect your data.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="text-center mt-12">
+            <Link href="/faq">
+              <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                View All FAQs
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-teal-600 to-teal-700 text-white">
         <div className="container">
@@ -500,13 +717,13 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link href="/register">
-                <Button size="lg" className="bg-white text-teal-600 hover:bg-gray-100 font-bold px-10 py-7 text-lg shadow-2xl">
+                <Button size="lg" className="bg-white text-teal-600 hover:bg-gray-100 font-bold px-12 py-5 text-lg rounded-xl shadow-2xl hover:shadow-3xl transition-all transform hover:scale-105">
                   Get Started Free Now
                   <ArrowRight className="ml-2 w-6 h-6" />
                 </Button>
               </Link>
               <Link href="/how-to-play">
-                <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white/10 font-bold px-10 py-7 text-lg">
+                <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-teal-600 font-bold px-12 py-5 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105">
                   Learn More
                 </Button>
               </Link>
