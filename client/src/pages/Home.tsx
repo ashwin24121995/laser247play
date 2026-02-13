@@ -24,9 +24,9 @@ import {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen animated-gradient">
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
+      <nav className="sticky top-0 z-50 glass border-b border-white/20">
         <div className="container">
           <div className="flex items-center justify-between h-20">
             <Link href="/">
@@ -82,12 +82,12 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative py-20 lg:py-32 overflow-hidden bg-gradient-to-br from-blue-50 via-white to-orange-50">
+      <section className="relative py-20 lg:py-32 overflow-hidden">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div>
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-6">
+              <div className="inline-flex items-center gap-2 px-4 py-2 gradient-primary text-white rounded-full text-sm font-medium mb-6 shadow-colorful">
                 <Sparkles className="w-4 h-4" />
                 100% Free Cricket Entertainment Platform
               </div>
@@ -95,7 +95,7 @@ export default function Home() {
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 Build Your Dream Team,
                 <br />
-                <span className="text-primary">Compete & Master Cricket</span>
+                <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Compete & Master Cricket</span>
               </h1>
 
               <p className="text-lg lg:text-xl text-gray-600 mb-6 leading-relaxed">
@@ -122,19 +122,19 @@ export default function Home() {
 
               {/* Trust Badges */}
               <div className="grid grid-cols-3 gap-4">
-                <div className="flex flex-col items-center text-center p-4 bg-white rounded-xl border border-gray-200">
+                <div className="flex flex-col items-center text-center p-4 glass rounded-xl border border-white/30 shadow-colorful">
                   <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-2">
                     <span className="text-red-600 font-bold text-lg">18+</span>
                   </div>
                   <span className="text-xs text-gray-600 font-medium">Age Verified Platform</span>
                 </div>
-                <div className="flex flex-col items-center text-center p-4 bg-white rounded-xl border border-gray-200">
+                <div className="flex flex-col items-center text-center p-4 glass rounded-xl border border-white/30 shadow-colorful">
                   <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-2">
                     <Shield className="w-6 h-6 text-green-600" />
                   </div>
                   <span className="text-xs text-gray-600 font-medium">Fair Play Certified</span>
                 </div>
-                <div className="flex flex-col items-center text-center p-4 bg-white rounded-xl border border-gray-200">
+                <div className="flex flex-col items-center text-center p-4 glass rounded-xl border border-white/30 shadow-colorful">
                   <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-2">
                     <CheckCircle2 className="w-6 h-6 text-blue-600" />
                   </div>
@@ -171,7 +171,7 @@ export default function Home() {
       </section>
 
       {/* Platform Core Values */}
-      <section className="py-16 bg-white border-y border-gray-200">
+      <section className="py-16 glass border-y border-white/20">
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-2xl font-bold text-gray-900 mb-2">Our Core Values</h2>
@@ -203,7 +203,7 @@ export default function Home() {
       </section>
 
       {/* What We Offer */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 gradient-secondary">
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
@@ -216,7 +216,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             {/* Feature 1 */}
-            <Card className="p-8 hover:shadow-xl transition-all border-gray-200 bg-white">
+            <Card className="p-8 hover:shadow-xl transition-all glass border-white/30 shadow-colorful">
               <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
                 <Users className="w-7 h-7 text-primary" />
               </div>
@@ -241,7 +241,7 @@ export default function Home() {
             </Card>
 
             {/* Feature 2 */}
-            <Card className="p-8 hover:shadow-xl transition-all border-gray-200 bg-white">
+            <Card className="p-8 hover:shadow-xl transition-all glass border-white/30 shadow-colorful">
               <div className="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center mb-6">
                 <Trophy className="w-7 h-7 text-accent" />
               </div>
@@ -266,7 +266,7 @@ export default function Home() {
             </Card>
 
             {/* Feature 3 */}
-            <Card className="p-8 hover:shadow-xl transition-all border-gray-200 bg-white">
+            <Card className="p-8 hover:shadow-xl transition-all glass border-white/30 shadow-colorful">
               <div className="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center mb-6">
                 <Target className="w-7 h-7 text-green-600" />
               </div>
@@ -293,7 +293,7 @@ export default function Home() {
 
           {/* Additional Features */}
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-white p-6 rounded-xl border border-gray-200">
+            <div className="glass p-6 rounded-xl border border-white/30 shadow-primary">
               <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
                 <BarChart3 className="w-5 h-5 text-purple-600" />
               </div>
@@ -301,7 +301,7 @@ export default function Home() {
               <p className="text-sm text-gray-600">Follow your team's performance in real-time as matches progress</p>
             </div>
 
-            <div className="bg-white p-6 rounded-xl border border-gray-200">
+            <div className="glass p-6 rounded-xl border border-white/30 shadow-primary">
               <div className="w-10 h-10 bg-pink-100 rounded-lg flex items-center justify-center mb-4">
                 <Star className="w-5 h-5 text-pink-600" />
               </div>
@@ -309,7 +309,7 @@ export default function Home() {
               <p className="text-sm text-gray-600">Access comprehensive statistics and performance analytics</p>
             </div>
 
-            <div className="bg-white p-6 rounded-xl border border-gray-200">
+            <div className="glass p-6 rounded-xl border border-white/30 shadow-primary">
               <div className="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
                 <TrendingUp className="w-5 h-5 text-indigo-600" />
               </div>
@@ -317,7 +317,7 @@ export default function Home() {
               <p className="text-sm text-gray-600">Track your progress and analyze your team-building patterns</p>
             </div>
 
-            <div className="bg-white p-6 rounded-xl border border-gray-200">
+            <div className="glass p-6 rounded-xl border border-white/30 shadow-primary">
               <div className="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center mb-4">
                 <Award className="w-5 h-5 text-cyan-600" />
               </div>
@@ -329,7 +329,7 @@ export default function Home() {
       </section>
 
       {/* How It Works - Detailed */}
-      <section className="py-20 bg-white">
+      <section className="py-20 gradient-accent">
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
@@ -349,7 +349,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex-1">
-                <div className="bg-blue-50 rounded-2xl p-8 border border-blue-100">
+                <div className="glass rounded-2xl p-8 border border-white/30 shadow-primary">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
                       <Users className="w-6 h-6 text-primary" />
@@ -374,7 +374,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex-1">
-                <div className="bg-orange-50 rounded-2xl p-8 border border-orange-100">
+                <div className="glass rounded-2xl p-8 border border-white/30 shadow-accent">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center">
                       <Clock className="w-6 h-6 text-accent" />
@@ -399,7 +399,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex-1">
-                <div className="bg-green-50 rounded-2xl p-8 border border-green-100">
+                <div className="glass rounded-2xl p-8 border border-white/30 shadow-success">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center">
                       <Target className="w-6 h-6 text-green-600" />
@@ -427,7 +427,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex-1">
-                <div className="bg-purple-50 rounded-2xl p-8 border border-purple-100">
+                <div className="glass rounded-2xl p-8 border border-white/30 shadow-primary">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center">
                       <BarChart3 className="w-6 h-6 text-purple-600" />
@@ -460,7 +460,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+      <section className="py-20 gradient-success">
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
@@ -472,7 +472,7 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="p-8 bg-white border-gray-200">
+            <Card className="p-8 glass border-white/30 shadow-colorful">
               <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-4">
                 <Zap className="w-6 h-6 text-green-600" />
               </div>
@@ -482,7 +482,7 @@ export default function Home() {
               </p>
             </Card>
 
-            <Card className="p-8 bg-white border-gray-200">
+            <Card className="p-8 glass border-white/30 shadow-colorful">
               <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
                 <Lock className="w-6 h-6 text-primary" />
               </div>
@@ -492,7 +492,7 @@ export default function Home() {
               </p>
             </Card>
 
-            <Card className="p-8 bg-white border-gray-200">
+            <Card className="p-8 glass border-white/30 shadow-colorful">
               <div className="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center mb-4">
                 <BookOpen className="w-6 h-6 text-accent" />
               </div>
@@ -502,7 +502,7 @@ export default function Home() {
               </p>
             </Card>
 
-            <Card className="p-8 bg-white border-gray-200">
+            <Card className="p-8 glass border-white/30 shadow-colorful">
               <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mb-4">
                 <Heart className="w-6 h-6 text-purple-600" />
               </div>
@@ -512,7 +512,7 @@ export default function Home() {
               </p>
             </Card>
 
-            <Card className="p-8 bg-white border-gray-200">
+            <Card className="p-8 glass border-white/30 shadow-colorful">
               <div className="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center mb-4">
                 <Globe className="w-6 h-6 text-pink-600" />
               </div>
@@ -522,7 +522,7 @@ export default function Home() {
               </p>
             </Card>
 
-            <Card className="p-8 bg-white border-gray-200">
+            <Card className="p-8 glass border-white/30 shadow-colorful">
               <div className="w-12 h-12 bg-cyan-100 rounded-xl flex items-center justify-center mb-4">
                 <Smartphone className="w-6 h-6 text-cyan-600" />
               </div>

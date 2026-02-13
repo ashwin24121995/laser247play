@@ -5,9 +5,9 @@ import { Target, Heart, Shield, Users, TrendingUp, Award } from "lucide-react";
 export default function About() {
   return (
     <Layout>
-      <div className="min-h-screen bg-white">
+      <div className="min-h-screen animated-gradient">
         {/* Hero Section */}
-        <section className="py-20 bg-gradient-to-br from-blue-50 to-white">
+        <section className="py-20 gradient-primary">
           <div className="container">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
@@ -21,7 +21,7 @@ export default function About() {
         </section>
 
         {/* Our Story */}
-        <section className="py-20">
+        <section className="py-20 glass">
           <div className="container">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-8">Our Story</h2>
@@ -48,10 +48,10 @@ export default function About() {
         </section>
 
         {/* Our Mission & Vision */}
-        <section className="py-20 bg-gray-50">
+        <section className="py-20 gradient-secondary">
           <div className="container">
             <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-              <Card className="p-10 bg-white border-gray-200">
+              <Card className="p-10 glass border-white/30 shadow-colorful">
                 <div className="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mb-6">
                   <Target className="w-8 h-8 text-primary" />
                 </div>
@@ -64,7 +64,7 @@ export default function About() {
                 </p>
               </Card>
 
-              <Card className="p-10 bg-white border-gray-200">
+              <Card className="p-10 glass border-white/30 shadow-colorful">
                 <div className="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center mb-6">
                   <TrendingUp className="w-8 h-8 text-accent" />
                 </div>
@@ -81,7 +81,7 @@ export default function About() {
         </section>
 
         {/* Our Values */}
-        <section className="py-20">
+        <section className="py-20 gradient-accent">
           <div className="container">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -93,7 +93,7 @@ export default function About() {
             </div>
 
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              <Card className="p-8 text-center bg-white border-gray-200">
+              <Card className="p-8 text-center glass border-white/30 shadow-colorful">
                 <div className="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <Heart className="w-8 h-8 text-green-600" />
                 </div>
@@ -103,7 +103,7 @@ export default function About() {
                 </p>
               </Card>
 
-              <Card className="p-8 text-center bg-white border-gray-200">
+              <Card className="p-8 text-center glass border-white/30 shadow-colorful">
                 <div className="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <Shield className="w-8 h-8 text-primary" />
                 </div>
@@ -113,7 +113,7 @@ export default function About() {
                 </p>
               </Card>
 
-              <Card className="p-8 text-center bg-white border-gray-200">
+              <Card className="p-8 text-center glass border-white/30 shadow-colorful">
                 <div className="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <Award className="w-8 h-8 text-purple-600" />
                 </div>
@@ -123,7 +123,7 @@ export default function About() {
                 </p>
               </Card>
 
-              <Card className="p-8 text-center bg-white border-gray-200">
+              <Card className="p-8 text-center glass border-white/30 shadow-colorful">
                 <div className="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <Users className="w-8 h-8 text-accent" />
                 </div>
@@ -133,7 +133,7 @@ export default function About() {
                 </p>
               </Card>
 
-              <Card className="p-8 text-center bg-white border-gray-200">
+              <Card className="p-8 text-center glass border-white/30 shadow-colorful">
                 <div className="w-16 h-16 bg-pink-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <Target className="w-8 h-8 text-pink-600" />
                 </div>
@@ -143,7 +143,7 @@ export default function About() {
                 </p>
               </Card>
 
-              <Card className="p-8 text-center bg-white border-gray-200">
+              <Card className="p-8 text-center glass border-white/30 shadow-colorful">
                 <div className="w-16 h-16 bg-cyan-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <TrendingUp className="w-8 h-8 text-cyan-600" />
                 </div>

@@ -20,9 +20,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-white">
+    <div className="min-h-screen flex flex-col animated-gradient">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
+      <header className="sticky top-0 z-50 glass border-b border-white/20">
         <div className="container">
           <div className="flex items-center justify-between h-20">
             <Link href="/">
@@ -115,74 +115,74 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <main className="flex-1">{children}</main>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 py-12">
+      <footer className="gradient-primary text-gray-900 py-12 border-t border-white/20">
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="text-white font-semibold text-lg mb-4">About</h3>
+              <h3 className="text-gray-900 font-bold text-lg mb-4">About</h3>
               <ul className="space-y-2 text-sm">
                 <li>
                   <Link href="/about">
-                    <a className="hover:text-white transition-colors">About Us</a>
+                    <a className="text-gray-700 hover:text-gray-900 transition-colors">About Us</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/how-to-play">
-                    <a className="hover:text-white transition-colors">How To Play</a>
+                    <a className="text-gray-700 hover:text-gray-900 transition-colors">How To Play</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/contact">
-                    <a className="hover:text-white transition-colors">Contact Us</a>
+                    <a className="text-gray-700 hover:text-gray-900 transition-colors">Contact Us</a>
                   </Link>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 className="text-white font-semibold text-lg mb-4">Support</h3>
+              <h3 className="text-gray-900 font-bold text-lg mb-4">Support</h3>
               <ul className="space-y-2 text-sm">
                 <li>
                   <Link href="/faq">
-                    <a className="hover:text-white transition-colors">FAQ</a>
+                    <a className="text-gray-700 hover:text-gray-900 transition-colors">FAQ</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/blog">
-                    <a className="hover:text-white transition-colors">Blog</a>
+                    <a className="text-gray-700 hover:text-gray-900 transition-colors">Blog</a>
                   </Link>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 className="text-white font-semibold text-lg mb-4">Legal</h3>
+              <h3 className="text-gray-900 font-bold text-lg mb-4">Legal</h3>
               <ul className="space-y-2 text-sm">
                 <li>
                   <Link href="/terms">
-                    <a className="hover:text-white transition-colors">Terms & Conditions</a>
+                    <a className="text-gray-700 hover:text-gray-900 transition-colors">Terms & Conditions</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/privacy">
-                    <a className="hover:text-white transition-colors">Privacy Policy</a>
+                    <a className="text-gray-700 hover:text-gray-900 transition-colors">Privacy Policy</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/fair-play">
-                    <a className="hover:text-white transition-colors">Fair Play Policy</a>
+                    <a className="text-gray-700 hover:text-gray-900 transition-colors">Fair Play Policy</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/responsible-gaming">
-                    <a className="hover:text-white transition-colors">Responsible Gaming</a>
+                    <a className="text-gray-700 hover:text-gray-900 transition-colors">Responsible Gaming</a>
                   </Link>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 className="text-white font-semibold text-lg mb-4">Company Info</h3>
+              <h3 className="text-gray-900 font-bold text-lg mb-4">Company Info</h3>
               <p className="text-sm leading-relaxed">
                 <strong>Laser 247 Play</strong>
                 <br />
@@ -204,8 +204,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
           </div>
 
           <div className="border-t border-gray-800 pt-8">
-            <div className="bg-yellow-900/30 border border-yellow-700 rounded-lg p-4 mb-6">
-              <p className="text-sm text-yellow-200">
+            <div className="glass border border-orange-300 rounded-lg p-4 mb-6 shadow-accent">
+              <p className="text-sm text-gray-800 font-medium">
                 <strong>Legal Disclaimer:</strong> This is a free-to-play cricket entertainment and educational platform. Only users 18 years and older are permitted. No real money is involved. No prizes or winnings are awarded.
               </p>
             </div>
