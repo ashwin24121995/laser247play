@@ -306,3 +306,21 @@
 - [x] Update favicon
 - [x] Test logo display across all pages
 - [x] Push updated logo to GitHub
+
+
+## Deploy to Vercel
+- [ ] Navigate to Vercel website
+- [ ] Login to Vercel account
+- [ ] Import GitHub repository (ashwin24121995/laser247play)
+- [ ] Configure environment variables (DATABASE_URL, JWT_SECRET)
+- [ ] Deploy to production
+- [ ] Verify live site is working
+
+
+## Fix Vercel Deployment Issues
+- [ ] Remove patchedDependencies from pnpm-lock.yaml
+- [ ] Regenerate pnpm-lock.yaml without Manus patches
+- [ ] Remove vercel.json if it contains incompatible builds configuration
+- [ ] Push fixes to GitHub
+- [ ] Monitor Vercel deployment
+- [ ] Verify successful build and deployment
