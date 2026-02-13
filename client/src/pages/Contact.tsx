@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
 import { toast } from "sonner";
-import { Loader2, Mail, MapPin, Clock, Send, MessageSquare, HelpCircle } from "lucide-react";
+import { Loader2, Mail, MapPin, Clock, Send, MessageSquare, HelpCircle, Phone, Globe, FileText } from "lucide-react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -52,7 +52,7 @@ export default function Contact() {
       <section className="py-20 bg-white">
         <div className="container">
           <div className="max-w-5xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-6 mb-16">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
               <Card className="card-elevated hover:shadow-teal transition-all">
                 <CardContent className="p-8 text-center">
                   <div className="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
@@ -90,6 +90,19 @@ export default function Contact() {
                   <p className="text-gray-600">
                     9:00 AM - 6:00 PM IST
                   </p>
+                </CardContent>
+              </Card>
+
+              <Card className="card-elevated hover:shadow-teal transition-all">
+                <CardContent className="p-8 text-center">
+                  <div className="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                    <FileText className="w-8 h-8 text-teal-600" />
+                  </div>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3">Legal Inquiries</h3>
+                  <p className="text-gray-600 mb-4">For legal matters and compliance questions</p>
+                  <a href="mailto:legal@laser247play.com" className="text-teal-600 font-semibold hover:text-teal-700">
+                    legal@laser247play.com
+                  </a>
                 </CardContent>
               </Card>
             </div>
@@ -194,7 +207,7 @@ export default function Contact() {
                   </Button>
 
                   <p className="text-sm text-gray-500 text-center">
-                    By submitting this form, you agree to our Privacy Policy and Terms of Service.
+                    By submitting this form, you agree to our <a href="/privacy-policy" className="text-teal-600 hover:text-teal-700 font-semibold">Privacy Policy</a> and <a href="/terms-of-service" className="text-teal-600 hover:text-teal-700 font-semibold">Terms of Service</a>.
                   </p>
                 </form>
               </CardContent>

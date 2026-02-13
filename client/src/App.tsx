@@ -13,6 +13,9 @@ import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
+import Disclaimer from "./pages/Disclaimer";
 import FairPlay from "./pages/FairPlay";
 import ResponsibleGaming from "./pages/ResponsibleGaming";
 import Blog from "./pages/Blog";
@@ -37,6 +40,9 @@ function Router() {
       <Route path={"/contact"} component={Contact} />
       <Route path={"/terms"} component={Terms} />
       <Route path={"/privacy"} component={Privacy} />
+      <Route path={"/privacy-policy"} component={PrivacyPolicy} />
+      <Route path={"/terms-of-service"} component={TermsOfService} />
+      <Route path={"/disclaimer"} component={Disclaimer} />
       <Route path={"/fair-play"} component={FairPlay} />
       <Route path={"/responsible-gaming"} component={ResponsibleGaming} />
       <Route path={"/blog"} component={Blog} />
